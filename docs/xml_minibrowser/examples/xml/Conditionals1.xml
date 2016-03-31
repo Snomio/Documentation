@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneText>
+    <If condition="$(set:phone_type)==snomD375">
+        <Title>Snom D375</Title>
+    </If>
+    <Elif condition="$(set:phone_type)==snomD765">
+        <Title>Snom D765</Title>
+    </Elif>
+    <Else>
+        <Title>Unknown Snom phone</Title>
+    </Else>
+    <Text>Snom phone sample text</Text>
+</SnomIPPhoneText>

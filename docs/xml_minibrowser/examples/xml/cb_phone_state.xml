@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneText xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
+    <Text>state:$(phone_state)</Text><!-- Minibrowser -->
+</SnomIPPhoneText>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneText xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
+    <If condition="$(mod_ifc:7xxExp)">
+        <Text>7xx expansion module is exist</Text>
+    </If>
+    <Else>
+        <Text>7xx expansion module is not exist</Text>
+    </Else>
+</SnomIPPhoneText>

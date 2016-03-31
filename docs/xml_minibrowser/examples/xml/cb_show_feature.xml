@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneText xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
+    <Text>
+        $(x_o:$(show_feature:FEATURE_BOSS_ADMIN))boss admin feature<br/>
+        $(x_o:$(show_feature:FEATURE_PARK_ORBIT))park orbit feature<br/>
+    </Text>
+</SnomIPPhoneText>

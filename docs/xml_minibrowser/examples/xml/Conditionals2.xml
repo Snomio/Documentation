@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneText xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
+    <If condition="$(set:phone_type)==snomD375">
+        <Title>Snom D375</Title>
+        <Text>Your phone is a Snom D375</Text>
+    </If>
+    <Elif condition="$(set:phone_type)==snomD765">
+        <Title>Snom D765</Title>
+        <Text>Your phone is a Snom D765</Text>
+    </Elif>
+    <Else>
+        <Title>Unknown Snom phone</Title>
+        <Text>Snom phone not recognised</Text>
+    </Else>
+</SnomIPPhoneText>

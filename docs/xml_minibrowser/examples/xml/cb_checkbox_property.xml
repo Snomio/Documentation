@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
+<Menu name="menu1">
+ <If condition="$(checkbox_property)==available">
+<MenuItem name="checkbox property available"></MenuItem>
+ </If>
+ <Elif condition="$(checkbox_property)==none">
+ <MenuItem name="no checkbox property"></MenuItem>
+ </Elif>
+ <Else>
+ <MenuItem name="unknown checkbox property"></MenuItem>
+ </Else>
+</Menu>
+</SnomIPPhoneMenu>

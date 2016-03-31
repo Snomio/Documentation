@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
+    <!-- Deutsch --><!-- English -->
+    <!-- DE --><MenuItem name="$(wlang:wlang_iso_code)"></MenuItem><!-- EN -->
+    <!-- Deutsch --><MenuItem name="$(wlang:wlang_web_language_name)"></MenuItem><!-- English -->
+    <!-- Keine --><MenuItem name="$(wlang:wlang_adr_ctnone)"></MenuItem><!-- None -->
+</SnomIPPhoneMenu>

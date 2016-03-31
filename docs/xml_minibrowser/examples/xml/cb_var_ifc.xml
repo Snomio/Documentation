@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneText xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
+    <Text>
+        state:$(var_ifc:lang.pui.ENGLISH::state)
+        <br />
+        name:$(var_ifc:lang.pui.ENGLISH::name)
+        <br />
+        file_name:$(var_ifc:lang.pui.ENGLISH::file_name)
+    </Text>
+<!--
+state:active
+name:English
+file_name:/snom/snomlang/gui_lang_EN.XML
+-->
+</SnomIPPhoneText>

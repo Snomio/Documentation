@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
+    <MenuItem name="set id4 without applyline">
+        <Url>snom://mb_nop#set:user_name4=random_one&amp;set:user_host4=10.110.22.37</Url>
+    </MenuItem>
+    <MenuItem name="unregister id4">
+        <Url>snom://mb_nop#unregister=3</Url>
+    </MenuItem>
+    <MenuItem name="set id5 with applyline">
+        <Url>snom://mb_nop#set:user_name4=random_one&amp;set:user_host4=10.110.22.37&amp;applyline</Url>
+    </MenuItem>
+    <MenuItem name="unregister id5">
+        <Url>snom://mb_nop#unregister=4</Url>
+    </MenuItem>
+</SnomIPPhoneMenu>

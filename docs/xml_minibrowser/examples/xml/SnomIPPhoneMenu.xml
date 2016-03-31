@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
+    <Menu name="name attr menu">
+        <Title>2nd layer title tag</Title>
+        <MenuItem name="2nd,1st menuitem"/>
+        <MenuItem name="2nd,2nd menuitem"/>
+    </Menu>
+    <MenuItem name="name attr menuitem"/>
+    <MenuItem name="name tag menuitem"/>
+</SnomIPPhoneMenu>

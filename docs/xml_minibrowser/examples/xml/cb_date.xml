@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneText xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
+<Text>date: $(date)</Text> <!-- 12.03.2014 or 03/12/2014 -->
+</SnomIPPhoneText>

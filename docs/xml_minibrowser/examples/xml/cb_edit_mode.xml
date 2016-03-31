@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
+    <Menu name="em:$(edit_mode);nem:$(next_edit_mode)" speedselect="off">
+        <InputField>
+            <Handler event="keypress">file:///xml/text.xml#var:text=$[current_input]</Handler>
+            <Handler event="timeout">file:///xml/text.xml#var:text=TIMEOUT:$[current_input]</Handler>
+            <Key>ENTER</Key>
+            <Timeout>3000</Timeout>
+            <Minimum>3</Minimum>
+            <Prompt>Input:</Prompt>
+        </InputField>
+        <SoftKeyItem>
+            <Name>F1</Name>
+            <Label>Next mode</Label>
+            <Url>snom://mb_nop#next_edit_mode</Url>
+        </SoftKeyItem>
+    </Menu>
+
+</SnomIPPhoneMenu>

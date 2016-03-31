@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
+    <Menu name="normal menu" speedselect="off">
+        <Title>normal menu title</Title>
+        <InputField>
+            <Handler event="keypress">file:///xml/text.xml#var:text=$[current_input]</Handler>
+            <Handler event="timeout">file:///xml/text.xml#var:text=TIMEOUT:$[current_input]</Handler>
+            <Timeout>3000</Timeout>
+            <Minimum>3</Minimum>
+            <Prompt>Input:</Prompt>
+            <Key>ENTER</Key>
+        </InputField>
+        <Menuitem name="Judith Bernhardt" />
+        <Menuitem name="Leigh Vargas" />
+        <Menuitem name="William Kosinski" />
+    </Menu>
+</SnomIPPhoneMenu>

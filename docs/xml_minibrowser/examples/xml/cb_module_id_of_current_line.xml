@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneMenu>
+  <Repeat value_key="$(contacts)" token="|__NAME__|__CONTACTID__|__URL__|__PRESENCE__|__IMAGE__|__GROUP__|__SELECTED__|__DIAL_NR__|">
+    <MenuItem name="__NAME__" id="__CONTACTID__" sel="__SELECTED__" on_selected="snom://mb_nop#var_ifc:PUI='current_number=$[var_ifc:$(module_id_of_current_line)::nr2dial]'">
+      <ItemData>
+        <Variable name="nr2dial" value="__DIAL_NR__" />
+      </ItemData>
+      <Url track="yes">__URL__</Url>
+    </MenuItem>
+  </Repeat>
+</SnomIPPhoneMenu>

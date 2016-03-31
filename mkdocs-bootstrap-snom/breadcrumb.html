@@ -1,0 +1,18 @@
+        <div class="container">
+            <ol class="breadcrumb">
+                {% if current_page %}
+                    {% for doc in current_page.ancestors %}
+                        {% if doc.title.startswith("hidden") %}
+                        {% else %}
+                            {% if doc.link %}
+                                <li><a href="{{ doc.link|e }}">{{ doc.title }}</a> &raquo;</li>
+                            {% else %}
+                                <li>{{ doc.title }} &raquo;</li>
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+
+                    <li>{{ current_page.title }}</li>
+                {% endif %}
+            </ol>
+        </div>

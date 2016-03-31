@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SnomIPPhoneInput>
+<Url>http://example.com/example.php?myvar=__X__</Url>
+<InputItem>
+    <DisplayName>Title</DisplayName>
+    <InputToken>__X__</InputToken>
+    <DefaultValue>Input</DefaultValue>
+    <InputFlags>a</InputFlags>
+</InputItem>
+</SnomIPPhoneInput>

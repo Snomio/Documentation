@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
+    <Repeat values="$(enum:$(max_registrations))" token="|__REG__|">
+        <MenuItem name="$(user_displayname:__REG__)">
+            <Url track="no">snom://mb_nop#reregister=$(math_eval:__REG__-1)&amp;go_back</Url>
+        </MenuItem>
+    </Repeat>
+</SnomIPPhoneMenu>

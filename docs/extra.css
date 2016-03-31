@@ -1,0 +1,262 @@
+.active-page {
+    border-left: #fff 8px solid;
+    border-padding: 10px;
+}
+
+/* SUBMENY SUPPORT */
+
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+    top:0;
+    left:100%;
+    margin-top:-6px;
+    margin-left:-1px;
+    -webkit-border-radius:0 6px 6px 6px;
+    -moz-border-radius:0 6px 6px 6px;
+    border-radius:0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+    display:block;
+}
+.dropdown-submenu>a:after {
+    display:block;
+    content:" ";
+    float:right;
+    width:0;
+    height:0;
+    border-color:transparent;
+    border-style:solid;
+    border-width:5px 0 5px 5px;
+    border-left-color:#cccccc;
+    margin-top:5px;
+    margin-right:-10px;
+}
+.dropdown-submenu:hover>a:after {
+    border-left-color:#ffffff;
+}
+.dropdown-submenu.pull-left {
+    float:none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left:-100%;
+    margin-left:10px;
+    -webkit-border-radius:6px 0 6px 6px;
+    -moz-border-radius:6px 0 6px 6px;
+    border-radius:6px 0 6px 6px;
+}
+
+
+/* breadcrumb */
+.breadcrumb {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1020;
+    display: block;
+    top: 50px;
+    font-size: 10px;
+    height: 14px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 10%;
+}
+.navbar-header .navbar-brand {
+    color: #fff;
+    font-size: 20px;
+}
+
+/* permalink smaller */
+.headerlink {
+    font-size: 15px;
+}
+
+/* TOC Indendation */
+.level1 {
+    padding-left: 10px;
+}
+.level2 {
+    padding-left: 15px;
+}
+.level3 {
+    padding-left: 20px;
+}
+.level4 {
+    padding-left: 25px;
+}
+.level5 {
+    padding-left: 30px;
+}
+
+/* Fix the side menu scroll bug */
+
+.bs-sidebar {
+      overflow-y: auto;
+      max-height: 80%;
+      padding: 0;
+}
+
+/* ADMINITION DEMO */
+
+.admonition.demo {
+    background: #ddd;
+    padding: 12px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+
+.admonition.demo p.admonition-title {
+    background: #ccc;
+    font-weight: bold;
+    display: block;
+    color: #fff;
+    margin: -12px;
+    padding: 6px 30px;
+    margin-bottom: 12px;
+    font-family: inherit;
+    font-style: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.admonition.demo p.admonition-title::before {
+    content: "\f0ed";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #fff;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+    left: 5px;
+}
+
+/* ADMONITION INFO */
+
+.admonition.info {
+    background: #dbfaf4;
+    padding: 12px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+
+.admonition.info p.admonition-title {
+    background: #1abc9c;
+    font-weight: bold;
+    display: block;
+    color: #fff;
+    margin: -12px;
+    padding: 6px 30px;
+    margin-bottom: 12px;
+    font-family: inherit;
+    font-style: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.admonition.info p.admonition-title::before {
+    content: "\f05a";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #fff;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+    left: 5px;
+}
+
+/* ADMONITION WARNING */
+
+.admonition.warning {
+    background: #ffedcc;
+    padding: 12px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+
+.admonition.warning p.admonition-title {
+    background: #f0b37e;
+    font-weight: bold;
+    display: block;
+    color: #fff;
+    margin: -12px;
+    padding: 6px 30px;
+    margin-bottom: 12px;
+    font-family: inherit;
+    font-style: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.admonition.warning p.admonition-title::before {
+    content: "\f06a";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #fff;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+    left: 5px;
+}
+
+/* ADMINITION DNAGER */
+
+.admonition.danger {
+    background: #fdf3f2;
+    padding: 12px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+
+.admonition.danger p.admonition-title {
+    background: #f29f97;
+    font-weight: bold;
+    display: block;
+    color: #fff;
+    margin: -12px;
+    padding: 6px 30px;
+    margin-bottom: 12px;
+    font-family: inherit;
+    font-style: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.admonition.danger p.admonition-title::before {
+    content: "\f071";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #fff;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+    left: 5px;
+}
