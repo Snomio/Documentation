@@ -5,7 +5,7 @@
         <Title>page 0</Title>
         <SoftKeyItem>
             <Name>*</Name>
-            <Url>http://172.16.18.15:8001/xml_minibrowser/examples/xml/cb_var.xml#sub=*[@id="page1"]</Url>
+            <Url>http://snomio.github.io/Documentation/xml_minibrowser/examples/xml/cb_var.xml#sub=*[@id="page1"]</Url>
         </SoftKeyItem>
         <Text>
             var:first_page: $(var:first_page)
@@ -17,7 +17,7 @@
         <Title>page 1</Title>
         <SoftKeyItem>
             <Name>*</Name>
-            <Url>http://172.16.18.15:8001/xml_minibrowser/examples/xml/cb_var.xml#sub=*[@id="page2"]&amp;var:first_page=$(urlencode:hello world)</Url>
+            <Url>http://snomio.github.io/Documentation/xml_minibrowser/examples/xml/cb_var.xml#sub=*[@id="page2"]&amp;var:first_page=$(urlencode:hello world)</Url>
         </SoftKeyItem>
         <Text>
             var_first_page = hello_world
@@ -29,7 +29,7 @@
         <Title>page 2</Title>
         <SoftKeyItem>
             <Name>*</Name>
-            <Url>http://172.16.18.15:8001/xml_minibrowser/examples/xml/cb_var.xml#sub=*[@id="page3"]</Url>
+            <Url>http://snomio.github.io/Documentation/xml_minibrowser/examples/xml/cb_var.xml#sub=*[@id="page3"]</Url>
         </SoftKeyItem>
         <Text>
             var:first_page: $(var:first_page)
@@ -39,7 +39,7 @@
         <Title>page 3</Title>
         <SoftKeyItem>
             <Name>*</Name>
-            <Url>http://172.16.18.15:8001/xml_minibrowser/examples/xml/cb_var.xml#sub=*[@id="page0"]</Url>
+            <Url>http://snomio.github.io/Documentation/xml_minibrowser/examples/xml/cb_var.xml#sub=*[@id="page0"]</Url>
         </SoftKeyItem>
         <Text>
             var:first_page: $(var:first_page)

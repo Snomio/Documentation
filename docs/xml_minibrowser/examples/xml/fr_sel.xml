@@ -5,12 +5,12 @@
         <SoftKeyItem>
             <Name>F1</Name>
             <Label>[@id="m1mi3"]</Label>
-            <Url>http://172.16.18.15:8001/xml_minibrowser/examples/xml/fr_sel.xml#sel=[@id="m1mi3"]</Url>
+            <Url>http://snomio.github.io/Documentation/xml_minibrowser/examples/xml/fr_sel.xml#sel=[@id="m1mi3"]</Url>
         </SoftKeyItem>
         <SoftKeyItem>
             <Name>F2</Name>
             <Label>[@name="m1mi4"]</Label>
-            <Url>http://172.16.18.15:8001/xml_minibrowser/examples/xml/fr_sel.xml#sel=[@name="m1mi4"]</Url>
+            <Url>http://snomio.github.io/Documentation/xml_minibrowser/examples/xml/fr_sel.xml#sel=[@name="m1mi4"]</Url>
         </SoftKeyItem>
         <MenuItem name="m1mi1" id="m1mi1"></MenuItem>
         <MenuItem name="m1mi2" id="m1mi2"></MenuItem>

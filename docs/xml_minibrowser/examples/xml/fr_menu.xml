@@ -10,6 +10,6 @@
         </Menu>
     </Menu>
     <MenuItem name="go to l3mi3">
-        <Url>http://172.16.18.15:8001/xml_minibrowser/examples/xml/fr_menu.xml#menu=/SnomIPPhoneMenu/*[@id="m1"]/*[@id="l2m1"]/*[@id="l3m1"]</Url>
+        <Url>http://snomio.github.io/Documentation/xml_minibrowser/examples/xml/fr_menu.xml#menu=/SnomIPPhoneMenu/*[@id="m1"]/*[@id="l2m1"]/*[@id="l3m1"]</Url>
     </MenuItem>
 </SnomIPPhoneMenu>

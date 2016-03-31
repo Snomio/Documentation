@@ -12,6 +12,7 @@ You can build the Docker image using the `make dbuild` command (image name is de
 Some files (like some public XML examples) need to be generated at build time in order to replace some placeholders (like for example the public URL).
 In order to make ti process working you have to define the replace varilabes in the Makefile, variable names must start with `TPL_` variable replacement is done via the bash script in *scripts/preprocessor.sh*.
 
+* `make prebuild` pre-process the template files and generate the files
 * `make build` creates the static webiste under the `site` directory
 * `make serve` creates the static webiste and start serving it using the mkdocs builting webserver
 * `make gh-pages` creates the static website, commit the site into the `gh-pages` branch and push the commit to Github

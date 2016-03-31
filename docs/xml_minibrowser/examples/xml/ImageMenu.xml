@@ -7,7 +7,7 @@
         <Image default="file:///bmp/colored/snom_photo_unknown.png">file:///bmp/colored/snom820_icon_buddy_dnd.png</Image>
     </MenuItem>
     <MenuItem name="url image1">
-        <Image default="file:///bmp/colored/snom_photo_unknown.png">http://172.16.18.15:8001/xml_minibrowser/examples/img/Icon_radiation.png</Image>
+        <Image default="file:///bmp/colored/snom_photo_unknown.png">http://snomio.github.io/Documentation/xml_minibrowser/examples/img/Icon_radiation.png</Image>
     </MenuItem>
     <MenuItem name="invalid url/image without default">
         <Image>http://randomurl.com/random_image.png</Image>
