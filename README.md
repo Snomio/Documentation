@@ -15,7 +15,7 @@ In order to make ti process working you have to define the replace varilabes in 
 * `make prebuild` pre-process the template files and generate the files
 * `make build` creates the static webiste under the `site` directory
 * `make serve` creates the static webiste and start serving it using the mkdocs builting webserver
-* `make gh-pages` creates the static website, commit the site into the `gh-pages` branch and push the commit to Github
+* `make gh-pages` creates the static website, commit the site into the `gh-pages` branch and push the commit to Github. **NOTE:** Never do a commit on the gh-pages brach: your commmit will be lost after the next deploy. Use instead `make gh-pages`
 
 ## Custom template
 
@@ -27,6 +27,13 @@ Main changes are:
 * possibility to hide pages from the navbar using a page name starting with **hidden**
 * multilevel navbar and toc
 
-## Github pages
+## Deploying the website locally
 
-Never do a commit on the gh-pages brach: your commmit will be lost after the next deploy. Use instead `make gh-pages`
+Thanks to the pre-processing mechanism all the provided examples are woring directly from the published pages.
+If for some reasons you want to re-deploy the whole site and examples in a your server you have to:
+
+1. Clone this repository
+1. Change the `TPL_ROOT_URL` according with your webserver IP / name and root path
+1. Build the website using `make build` if you want to serve the `site` directory using your own web server. If you want to serve the pages using the Mkdocs builtin webserver you have to run `make serve`
+
+**NOTE:** In order to deploy the site you need Docker installed, otherwise you have do slightly modify the Makefile in order to use Mkdocs directly (all the requiremnts are listed in Docker/requirements.txt)
