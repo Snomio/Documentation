@@ -14,6 +14,7 @@ In order to make ti process working you have to define the replace varilabes in 
 
 * `make build` creates the static webiste under the `site` directory
 * `make serve` creates the static webiste and start serving it using the mkdocs builting webserver
+* `make gh-pages` creates the static website, commit the site into the `gh-pages` branch and push the commit to Github
 
 ## Custom template
 
@@ -24,3 +25,7 @@ Main changes are:
 * breadcrumb bar
 * possibility to hide pages from the navbar using a page name starting with **hidden**
 * multilevel navbar and toc
+
+## Github pages
+
+Never do a commit on the gh-pages brach: your commmit will be lost after the next deploy. Use instead `make gh-pages`
