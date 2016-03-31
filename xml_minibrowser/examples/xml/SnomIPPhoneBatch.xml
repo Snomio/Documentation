@@ -3,15 +3,15 @@
     <SnomIPPhoneMenu id="menu">
         <Title>Menu</Title>
         <MenuItem name="show image">
-            <URL>http://172.16.18.15:8001/xml_minibrowser/examples/xml/SnomIPPhoneBatch.xml#sub=*[@id="imageFile"]</URL>
+            <URL>http://snomio.github.io/Documentation/xml_minibrowser/examples/xml/SnomIPPhoneBatch.xml#sub=*[@id="imageFile"]</URL>
         </MenuItem>
         <MenuItem name="go somewhere else">
-            <URL>http://172.16.18.15:8001/xml_minibrowser/examples/xml/SnomIPPhoneText.xml</URL>
+            <URL>http://snomio.github.io/Documentation/xml_minibrowser/examples/xml/SnomIPPhoneText.xml</URL>
         </MenuItem>
     </SnomIPPhoneMenu>
     <SnomIPPhoneImageFile id="imageFile">
         <LocationX>0</LocationX>
         <LocationY>0</LocationY>
-        <URL>http://172.16.18.15:8001/xml_minibrowser/examples/img/webcam.jpg</URL>
+        <URL>http://snomio.github.io/Documentation/xml_minibrowser/examples/img/webcam.jpg</URL>
     </SnomIPPhoneImageFile>
 </SnomIPPhoneBatch>

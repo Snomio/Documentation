@@ -8,6 +8,6 @@
     <Image default="file:///bmp/colored/snom_photo_unknown.png">
         <LocationX>2</LocationX>
         <LocationY>23</LocationY>
-        <Url>http://172.16.18.15:8001/xml_minibrowser/examples/img/cloud.png</Url>
+        <Url>http://snomio.github.io/Documentation/xml_minibrowser/examples/img/cloud.png</Url>
     </Image>
 </SnomIPPhoneText>
