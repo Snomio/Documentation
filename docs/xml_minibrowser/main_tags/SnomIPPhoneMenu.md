@@ -3,7 +3,7 @@
 The **SnomIPPhoneMenu** displays a Menu of selectable items. These items can either be sub-menus, containing items themselves, or items with a specific target, like URLs, key-events or internal callbacks.
 
 !!! Info
-    You can see a **SnomIPPhoneMenu** usage example [here](examples/#snomipphonemenu)
+    You can see a **SnomIPPhoneMenu** usage example [here](examples/SnomIPPhoneMenu)
 
 # Valid Attributes
 
