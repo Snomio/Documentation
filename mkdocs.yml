@@ -1,8 +1,8 @@
 site_name: Snom io Knowledge base
-#theme: readthedocs
 theme_dir: 'mkdocs-bootstrap-snom'
-#theme_dir: 'bootswatch-yeti-snom'
 copyright: 'Copyright © 2016 Snom Technology AG. All rights reserved.'
+repo_url: https://github.com/Snomio/Documentation
+
 pages:
     - Home: index.md
     - XML Minibrowser:
