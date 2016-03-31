@@ -3,7 +3,7 @@
 The **SnomIPPhoneText** tag shows arbitrary text
 
 !!! Info
-    You can see a **SnomIPPhoneMenu** usage example [here](examples/#snomipphonetext)
+    You can see a **SnomIPPhoneMenu** usage example [here](../examples/SnomIPPhoneText)
 
 # Valid Attributes
 

@@ -7,7 +7,7 @@ All the main tags can contain the following sub tags:
 The **If, Elif, Else** tags are used as a conditional elements, depending on dynamic evaluations like callback expressions of the form $(...) for instance. This tags sequence must be start with **If** tag and end with **Else** tag, which both can only appear once under the parent element. The **Elif** tag is optional and can be written many time after **If** tag end and before **Else** tag start. This is especially useful for describing alternative child elements.
 
 !!! Info
-    You can see a **SnomIPPhoneMenu** usage example [here](../examples/main_subelements/#conditional_blocks#snomipphonetext)
+    You can see an usage example [here](../examples/main_subelements/#conditional_blocks)
 
 ### Valid Attributes
 

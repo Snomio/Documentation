@@ -8,7 +8,7 @@ A main element can be selected to be processed by the URI fragment command *sub=
 Example URL: *http://example.com/example.xml#sub=*[@id="example-id"]* By default the first main element in the batch is processed.
 
 !!! Info
-    You can see a **SnomIPPhoneDireectory** usage example [here](examples/#snomipphonebatch)
+    You can see a **SnomIPPhoneBatch** usage example [here](../examples/SnomIPPhoneBatch)
 
 # Valid Subtags
 

@@ -3,7 +3,7 @@
 The **SnomIPPhoneDirectory** tag displays a directory of name-number pairs from which you can select one to call.
 
 !!! Info
-    You can see a **SnomIPPhoneDireectory** usage example [here](examples/#snomipphonedirectory)
+    You can see a **SnomIPPhoneDireectory** usage example [here](../examples/SnomIPPhoneDirectory)
 
 # Valid Attributes
 

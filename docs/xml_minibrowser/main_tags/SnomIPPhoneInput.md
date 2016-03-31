@@ -3,7 +3,7 @@
 The **SnomIPPhoneInput** tag isplays an input field. The entered value can be put anywhere into the Url for the next XML file to process by a freely definable token. In combination with URI fragment commands the value can be used to set settings or variables.
 
 !!! Info
-    You can see a **SnomIPPhoneInput** usage example [here](examples/#snomipphoneinput)
+    You can see a **SnomIPPhoneInput** usage example [here](../examples/SnomIPPhoneInput)
 
 # Valid Attributes
 

@@ -3,7 +3,7 @@
 The **SnomIPPhoneImageFile** tag displays an image that is contained in the XML file
 
 !!! Info
-    You can see a **SnomIPPhoneImageFile** usage example [here](examples/#snomipphoneimagefile)
+    You can see a **SnomIPPhoneImageFile** usage example [here](../examples/SnomIPPhoneImageFile)
 
 # Valid Attributes
 
