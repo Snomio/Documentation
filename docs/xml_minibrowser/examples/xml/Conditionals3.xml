@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
+    <Menu name="Menu1">
+<!-- TRUE -->   <If condition="a==a"><MenuItem name="TRUE>>a==a" /></If>
+        <Else><MenuItem name="FALSE>>a==a" /></Else>
+<!-- FALSE -->  <If condition="a==A"><MenuItem name="TRUE>>a==A" /></If>
+        <Else><MenuItem name="FALSE>>a==A" /></Else>
+<!-- FALSE -->  <If condition="!a==a"><MenuItem name="TRUE>>!a==a" /></If>
+        <Else><MenuItem name="FALSE>>!a==a" /></Else>
+<!-- FALSE -->  <If condition=" a==a"><MenuItem name="TRUE>> a==a" /></If>
+        <Else><MenuItem name="FALSE>> a==a" /></Else>
+<!-- TRUE -->   <If condition=" 10>=10"> <MenuItem name="TRUE>> 10>=10" /></If>
+        <Else><MenuItem name="FALSE>> 10>=10" /></Else>
+<!-- TRUE -->   <If condition="10>= 10"><MenuItem name="TRUE>>10>= 10" /></If>
+        <Else><MenuItem name="FALSE>>10>= 10" /></Else>
+    </Menu>
+</SnomIPPhoneMenu>

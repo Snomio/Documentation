@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneText xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
+    <Text>
+        <Repeat values="$(enum:$(max_pkeys))" token="|__KEY__|">
+            key$(math_eval:__KEY__-1):$(set:fkey_label $(math_eval:__KEY__-1))<br/>
+        </Repeat>
+    </Text>
+</SnomIPPhoneText>

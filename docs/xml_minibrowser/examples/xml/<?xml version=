@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneText xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
+    <Text>
+        <Repeat token="/__SSID__/__QUAL__/__AUTH__/__ENC__/" values="$(wifiscan)">
+SSID:__SSID__<br/>
+Quality:__QUAL__<br/>
+Authentication:__AUTH__<br/>
+Encryption:__ENC__<br/>
+================== <br/>
+        </Repeat>
+    </Text>
+</SnomIPPhoneText>

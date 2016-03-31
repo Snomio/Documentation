@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd" track="yes">
+    <Menu name="l1menu1" id="l1menu1">
+        <MenuItem name="l2mi1:$(sel),$(lastsel)" id="l2m1mi1"></MenuItem>
+        <MenuItem name="l2mi2:$(sel),$(lastsel)" id="l2m1mi2"></MenuItem>
+        <MenuItem name="l2mi3:$(sel),$(lastsel)" id="l2m1mi3"></MenuItem>
+        <MenuItem name="l2mi4:$(sel),$(lastsel)" id="l2m1mi4"></MenuItem>
+    </Menu>
+    <Menu name="l1menu2" id="l1menu2">
+        <MenuItem name="l2mi1:$(sel),$(lastsel)" id="l2m2mi1"></MenuItem>
+        <MenuItem name="l2mi2:$(sel),$(lastsel)" id="l2m2mi2"></MenuItem>
+        <MenuItem name="l2mi3:$(sel),$(lastsel)" id="l2m2mi3"></MenuItem>
+        <MenuItem name="l2mi4:$(sel),$(lastsel)" id="l2m2mi4"></MenuItem>
+    </Menu>
+    <Menu name="l1menu3" id="l1menu2" >
+        <MenuItem name="l2mi1:$(sel),$(lastsel)" id="l2m3mi1"></MenuItem>
+        <MenuItem name="l2mi2:$(sel),$(lastsel)" id="l2m3mi2"></MenuItem>
+        <MenuItem name="l2mi3:$(sel),$(lastsel)" id="l2m3mi3"></MenuItem>
+        <MenuItem name="l2mi4:$(sel),$(lastsel)" id="l2m3mi4" sel="true"></MenuItem>
+    </Menu>
+</SnomIPPhoneMenu>

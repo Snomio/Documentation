@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd" dtmf="no" track="no">
+    <Title>fkey_label0:$(set:fkey_label0)</Title>
+    <MenuItem name="set fkey label0 to weather">
+        <Url>snom://mb_nop#set:fkey_label0=weather</Url>
+    </MenuItem>
+    <MenuItem name="set fkey label0 to empty">
+        <Url>snom://mb_nop#set:fkey_label0=</Url>
+    </MenuItem>
+</SnomIPPhoneMenu>

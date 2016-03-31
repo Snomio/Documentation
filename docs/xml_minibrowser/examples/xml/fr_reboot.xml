@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
+    <MenuItem name="reboot">
+        <Url>snom://mb_nop#reboot</Url>
+    </MenuItem>
+    <MenuItem name="reboot=yes">
+        <Url>snom://mb_nop#reboot=yes</Url>
+    </MenuItem>
+    <MenuItem name="reboot=reset">
+        <Url>snom://mb_nop#reboot=reset</Url>
+    </MenuItem>
+</SnomIPPhoneMenu>

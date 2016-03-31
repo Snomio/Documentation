@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd" >
+    <Title>Toggleset setting</Title>
+    <MenuItem name="[$(on_off:$(set:date_us_format))]$(date)" id="date_us_format">
+        <Url track="no">snom://mb_nop#toggleset:date_us_format</Url>
+    </MenuItem>
+    <MenuItem name="[$(on_off:$(set:time_24_format))]$(time)" id="time_24_format">
+        <Url track="no">snom://mb_nop#toggleset:time_24_format</Url>
+    </MenuItem>
+</SnomIPPhoneMenu>

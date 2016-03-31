@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd" sort="yes">
+    <MenuItem name="z line 1"></MenuItem>
+    <MenuItem name="b line 2"></MenuItem>
+    <MenuItem name="o line 3"></MenuItem>
+    <MenuItem name="k line 4"></MenuItem>
+</SnomIPPhoneMenu>

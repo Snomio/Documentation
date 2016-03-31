@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneText>
+    <Title>user_displayname test</Title>
+    <Text>
+0 : $(user_displayname)<br/>
+1 : $(user_displayname:1)<br/>
+2 : $(user_displayname:2)<br/>
+3 : $(user_displayname:3)<br/>
+4 : $(user_displayname:4)<br/>
+5 : $(user_displayname:5)<br/>
+6 : $(user_displayname:6)<br/>
+7 : $(user_displayname:7)<br/>
+8 : $(user_displayname:8)<br/>
+9 : $(user_displayname:9)<br/>
+10 : $(user_displayname:10)<br/>
+11 : $(user_displayname:11)<br/>
+12 : $(user_displayname:12)<br/>
+    </Text>
+</SnomIPPhoneText>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
+    <Repeat token="/__NAME__/__URL__/" values="|foo|http://foo.com|bar|http://bar.com|">
+        <MenuItem name="__NAME__">
+            <Url>__URL__</Url>
+        </MenuItem>
+    </Repeat>
+</SnomIPPhoneMenu>

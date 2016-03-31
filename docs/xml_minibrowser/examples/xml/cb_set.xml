@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
+    <MenuItem name="mac:$(set:mac)"/><!-- 00045467654C -->
+    <MenuItem name="ip_adr:$(set:ip_adr)"/><!-- 10.112.11.64 -->
+    <MenuItem name="netmask:$(set:netmask)"/><!-- 255.255.255.0 -->
+    <!-- recommendation on square bracket as settings index -->
+    <MenuItem name="fkey_label0:$(set:fkey_label[0])"/><!-- Key 0 label -->
+</SnomIPPhoneMenu>

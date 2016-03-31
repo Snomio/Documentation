@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
+<Title>cb bool_eval</Title>
+<!-- 1 --><MenuItem name="true:$(bool_eval:true)" />
+<!-- 0 --><MenuItem name="false:$(bool_eval:false)" />
+<!-- 1 --><MenuItem name="true | true : $(bool_eval:true | true)" />
+<!-- 1 --><MenuItem name="true | false :$(bool_eval:true | false)" />
+<!-- 1 --><MenuItem name="false | true :$(bool_eval:false | true)" />
+<!-- 0 --><MenuItem name="false | false :$(bool_eval:false | false) " />
+<!-- 1 --><MenuItem name="true & true : $(bool_eval:true & true)" />
+<!-- 0 --><MenuItem name="true & false :$(bool_eval:true & false)" />
+<!-- 0 --><MenuItem name="false & true :$(bool_eval:false & true)" />
+<!-- 0 --><MenuItem name="false & false :$(bool_eval:false & false) " />
+<!-- 0 --><MenuItem name="false | true & false :$(bool_eval:false | true & false)" />
+<!-- 0 --><MenuItem name="true & false | false :$(bool_eval:true & false | false)" />
+<!-- 1 --><MenuItem name="true & false | true :$(bool_eval:true & false | true)" />
+</SnomIPPhoneMenu>

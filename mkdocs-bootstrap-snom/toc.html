@@ -1,0 +1,22 @@
+{% set deep = deep + 1 %}
+
+{% if nav_item_side.children %}
+    <li class="level{{ deep }}"><a>{{ nav_item_side.title }}</a></li>
+    {% for nav_item_side in nav_item_side.children %}
+        {% if nav_item_side.title.startswith("hidden") == False %}
+            {% include 'toc.html' %}
+        {% endif %}
+    {% endfor %}
+{% else %}
+    <li class="level{{ deep }} {% if nav_item_side.active%}active active-page{%endif%}">
+        <a href="{{ nav_item_side.url }}">{{ nav_item_side.title }}</a>
+        {% if nav_item_side == current_page %}
+                {% for toc_item in toc %} 
+                    <li class="active-page level{{ deep + 1 }} {% if toc_item.active %}active active-page{% endif %}"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
+                    {% for toc_item in toc_item.children %}
+                        <li class="active-page level{{ deep + 2 }}"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
+                    {% endfor %}
+                {% endfor %}
+        {% endif %}
+    </li>
+{% endif %}

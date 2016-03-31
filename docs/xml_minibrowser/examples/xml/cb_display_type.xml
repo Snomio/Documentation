@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
+    <Title>$(display_type)</Title>
+    <If condition="$(display_type)==color_touch">
+        <MenuItem name="Display type:color_touch"></MenuItem>
+    </If>
+    <Elif condition="$(display_type)==color">
+        <MenuItem name="Display type:color"></MenuItem>
+    </Elif>
+    <Elif condition="$(display_type)==greyscale">
+        <MenuItem name="Display type:greyscale"></MenuItem>
+    </Elif>
+    <Elif condition="$(display_type)==monochrome">
+        <MenuItem name="Display type:monochrome"></MenuItem>
+    </Elif>
+    <Elif condition="$(display_type)==character">
+        <MenuItem name="Display type:character"></MenuItem>
+    </Elif>
+    <Elif condition="$(display_type)==none">
+        <MenuItem name="Display type:none"></MenuItem>
+    </Elif>
+    <Else>
+        <MenuItem name="Not defined display type">
+        </MenuItem>
+    </Else>
+</SnomIPPhoneMenu>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneText>
+    <Title>Demo</Title>
+    <Text>
+        $(urlencode:abc.com/a b)
+    </Text>
+<!-- 
+ $(urlencode:abc.com/a b) -> abc.com%2fa%20b
+url-decoded (without quotes): 'abc.com/a b'
+ -->
+</SnomIPPhoneText>

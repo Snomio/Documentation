@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd" selectable="off">
+    <Menu name="m1">
+        <MenuItem name="mi1"></MenuItem>
+        <MenuItem name="mi2"></MenuItem>
+        <MenuItem name="mi3"></MenuItem>
+    </Menu>
+    <Menu name="m2">
+        <MenuItem name="mi1"></MenuItem>
+        <MenuItem name="mi2"></MenuItem>
+        <MenuItem name="mi3"></MenuItem>
+    </Menu>
+    <Menu name="m3">
+        <MenuItem name="mi1"></MenuItem>
+        <MenuItem name="mi2"></MenuItem>
+        <MenuItem name="mi3"></MenuItem>
+    </Menu>
+    <Menu name="m4"></Menu>
+    <Menu name="m5"></Menu>
+    <Menu name="m6"></Menu>
+    <Menu name="m7"></Menu>
+</SnomIPPhoneMenu>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneText xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
+    <Text>
+        auto_answer:$(remove_cmd:auto_answer test)<br/>
+        blf:$(remove_cmd:blf test)<br/>
+        bossadmin:$(remove_cmd:bossadmin test)<br/>
+        button:$(remove_cmd:button test)<br/>
+        call_agent:$(remove_cmd:call_agent test)<br/>
+        conference:$(remove_cmd:conference test)<br/>
+        dtmf:$(remove_cmd:dtmf test)<br/>
+        ivr:$(remove_cmd:ivr test)<br/>
+        keyevent:$(remove_cmd:keyevent test)<br/>
+        line:$(remove_cmd:line test)<br/>
+        mult:$(remove_cmd:mult test)<br/>
+        multicast:$(remove_cmd:multicast test)<br/>
+        none:$(remove_cmd:none test)<br/>
+        p2t:$(remove_cmd:p2t test)<br/>
+        presence:$(remove_cmd:presence test)<br/>
+        recorder:$(remove_cmd:recorder test)<br/>
+        redirect:$(remove_cmd:redirect test)<br/>
+        speed:$(remove_cmd:speed test)<br/>
+        transfer:$(remove_cmd:transfer test)<br/>
+        url:$(remove_cmd:url test)<br/>
+</Text>
+</SnomIPPhoneText>

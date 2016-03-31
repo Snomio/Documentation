@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneText>
+    <Title>2nd page</Title>
+    <Text>Bye bye!</Text>
+    <Fetch mil="4000">snom://mb_exit</Fetch>
+</SnomIPPhoneText>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneText>
+    <Text>
+        $(lines):no argument<br/>
+        $(lines:connected):connected<br/>
+        $(lines:holding):holding<br/>
+        $(lines:on_hold):on_hold<br/>
+        $(lines:offered):offered<br/>
+        $(lines:ringing):ringing<br/><br/>
+        $(lines:closed):closed<br/>
+        $(lines:offhook):offhook<br/>
+        $(lines:calling):calling<br/>
+        $(lines:ringback):ringback<br/>
+        $(lines:auto_redial):auto_redial<br/>
+        $(lines:invalid):invalid
+    </Text>
+</SnomIPPhoneText>

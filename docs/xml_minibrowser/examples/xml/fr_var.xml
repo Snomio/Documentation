@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- if called with following url :
+ file:///xml/text.xml#var:title=This%20is%20title&var:text=No%20text
+-->
+<SnomIPPhoneText>
+    <Title>$(var:title)</Title><!-- This is title -->
+    <Text>$(var:text)</Text><!-- No text -->
+</SnomIPPhoneText>

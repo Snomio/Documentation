@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneText xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
+    <Text>cb condition<br/>
+    a==a:$(condition:a==a)<br/> 
+    !a==a:$(condition:!a==a)<br/>
+    a==A:$(condition:a==A)<br/>
+    10>=10:$(condition: 10>=10)<br/>
+    9&lt;10:$(condition:9&lt;10)
+    </Text>
+</SnomIPPhoneText>

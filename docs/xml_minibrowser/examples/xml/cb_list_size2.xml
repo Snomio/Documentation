@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneText xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
+    <Text>
+        line1<br />
+        line2<br />
+        lorem ipusfjsaöljkfsaölj
+        lkfölsdajföl jfö jfkj aöfjs 
+        jfödajföj aölj öojsfdjsdkfjöldfj<br />
+        list_size:$(list_size)
+    </Text><!-- list_size:6 -->
+</SnomIPPhoneText>

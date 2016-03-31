@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneText xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
+    <Text>
+        == condition ==
+        <br />
+        true:$(condition:a==a)
+        <br />
+        false:$(condition:a!=a)
+        <br />
+        <Repeat values="|bool_eval|on_off|yes_no|x_o|" token="|__cb_name__|">
+            == __cb_name__ ==
+            <br />
+            true:$(__cb_name__:$(condition:a==a))
+            <br />
+            false:$(__cb_name__:$(condition:a!=a))
+            <br />
+        </Repeat>
+        <br />
+        <Repeat values="|bool_eval|on_off|yes_no|x_o|" token="|__cb_name__|">
+            == __cb_name__:no_keys ==
+            <br />
+            true:$(__cb_name__)
+            <br />
+            false:$(__cb_name__)
+            <br />
+        </Repeat>
+        <Repeat values="|bool_eval|on_off|yes_no|x_o|" token="|__cb_name__|">
+            == __cb_name__:empty_keys ==
+            <br />
+            true:$(__cb_name__:)
+            <br />
+            false:$(__cb_name__:)
+            <br />
+        </Repeat>
+        <Repeat values="|bool_eval|on_off|yes_no|x_o|" token="|__cb_name__|">
+            == __cb_name__:true_false ==
+            <br />
+            true:$(__cb_name__:true)
+            <br />
+            false:$(__cb_name__:false)
+            <br />
+        </Repeat>
+        <Repeat values="|bool_eval|on_off|yes_no|x_o|" token="|__cb_name__|">
+            == __cb_name__:1_0 ==
+            <br />
+            true:$(__cb_name__:1)
+            <br />
+            false:$(__cb_name__:0)
+            <br />
+        </Repeat>
+        <Repeat values="|bool_eval|on_off|yes_no|x_o|" token="|__cb_name__|">
+            == __cb_name__:Ja_Nein ==
+            <br />
+            true:$(__cb_name__:Ja)
+            <br />
+            false:$(__cb_name__:Nein)
+            <br />
+        </Repeat>
+    </Text>
+</SnomIPPhoneText>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
+    <Title>var_ifc test</Title>
+    <Repeat token="|__state__|__name__|__file_name__|" var_ifc="lang.pui.*">
+        <if condition="__state__==active">
+            <MenuItem name="$(x_o:$(condition:__state__==active)) __name__(__file_name__)" sel="true"/>
+        </if>
+        <else>
+            <MenuItem name="$(x_o:$(condition:__state__==active)) __name__(__file_name__)" sel="false"/>
+        </else>
+    </Repeat>
+</SnomIPPhoneMenu>

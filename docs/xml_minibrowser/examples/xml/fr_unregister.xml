@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
+    <MenuItem name="unregister-1"> <!-- unregister all identity -->
+        <Url>snom://mb_exit#unregister=1</Url>
+    </MenuItem>
+    <MenuItem name="unregister"> <!-- unregister first identity(WUI) -->
+        <Url>snom://mb_exit#unregister</Url>
+    </MenuItem>
+    <MenuItem name="unregister0"> <!-- unregister identity1 (WUI) -->
+        <Url>snom://mb_exit#unregister=0</Url>
+    </MenuItem>
+    <MenuItem name="unregister1"><!-- unregister identity2 (WUI) -->
+        <Url>snom://mb_exit#unregister=1</Url>
+    </MenuItem>
+    <MenuItem name="unregister2"><!-- unregister identity3 (WUI) -->
+        <Url>snom://mb_exit#unregister=2</Url>
+    </MenuItem>
+</SnomIPPhoneMenu>

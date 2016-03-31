@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
+    <If condition="$(arch_series)==snom8xx">
+        <MenuItem name="For 8xx">
+            <Url>http://website.com/snom8xx.xml</Url>
+        </MenuItem>
+    </If>
+    <Elif condition="$(arch_series)==snom7xx">
+        <MenuItem name="For 7xx">
+            <Url>http://website.com/snom7xx.xml</Url>
+        </MenuItem>
+    </Elif>
+    <Elif condition="$(arch_series)==snom3xx">
+        <MenuItem name="For 3xx">
+            <Url>http://website.com/snom3xx.xml</Url>
+        </MenuItem>
+    </Elif>
+    <Elif condition="$(arch_series)==snomD3X5">
+        <MenuItem name="For D3X5">
+            <Url>http://website.com/snomD3x5.xml</Url>
+        </MenuItem>
+    </Elif>
+    <Else>
+        <MenuItem name="Not found: I am $(arch_series)">
+            <Url>http://website.com/no_arch_series.xml</Url>
+        </MenuItem>
+    </Else>
+</SnomIPPhoneMenu>

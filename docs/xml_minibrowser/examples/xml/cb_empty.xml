@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneText xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
+<If condition="$(empty:$(var:some_var))">
+    <Text>No variable received<br/></Text>
+</If><Else>
+    <Text>Variable received<br/>
+    some_var:$(var:some_var)</Text>
+</Else>
+</SnomIPPhoneText>

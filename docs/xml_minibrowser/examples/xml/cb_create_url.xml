@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneText>
+    <Title>Demo</Title>
+    <Text>
+        $(create_url:abc)
+    </Text>
+
+</SnomIPPhoneText>
+<!--
+result:
+<sip:abc@10.110.22.237>;user=phone
+The later part '10.110.22.237' is the registrar of the telephone
+-->

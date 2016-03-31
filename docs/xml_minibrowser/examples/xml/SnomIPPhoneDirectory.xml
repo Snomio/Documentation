@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneDirectory>
+    <Title>Menu</Title>
+    <DirectoryEntry>
+        <Name>Support</Name>
+        <Telephone>444</Telephone>
+    </DirectoryEntry>
+    <DirectoryEntry>
+        <Name>Sales</Name>
+        <Telephone>445</Telephone>
+    </DirectoryEntry>
+</SnomIPPhoneDirectory>

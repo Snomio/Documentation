@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
+<!-- Deutsch --><!-- English -->
+<!-- Ja --><MenuItem name="$(lang:yes)"></MenuItem><!-- Yes -->
+<!-- Nein --><MenuItem name="$(lang:no)"></MenuItem><!-- No -->
+<!-- Januar --><MenuItem name="$(lang:lang_month_01)"></MenuItem><!-- January -->
+<!-- Februar --><MenuItem name="$(lang:lang_month_02)"></MenuItem><!-- February -->
+</SnomIPPhoneMenu>

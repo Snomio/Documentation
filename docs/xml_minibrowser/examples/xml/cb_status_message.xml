@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
+    <MenuItem name="CODE:STATUS"></MenuItem>
+    <Repeat values="$(status_message)" token="|__X__|__Y__|">
+    <MenuItem name="__Y__:__X__"></MenuItem>
+    </Repeat>
+    <!--
+        some possible result:
+        32:*Admin Password not set!
+        31:*HTTP Password not set!
+    -->
+</SnomIPPhoneMenu>

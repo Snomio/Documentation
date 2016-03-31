@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneText>
+    <Title>LED Control Feature</Title>
+    <Text>This sample page demonstrates the Minibrowser LED control feature.</Text>
+    <Led number="1">Off</Led>
+    <Led number="2">Off</Led>
+    <Led number="3">Off</Led>
+    <Led number="4">Off</Led>
+    <Led number="5" color="green">Off</Led>
+    <SoftKeyItem>
+        <Name>F1</Name>
+        <Label>On</Label>
+        <URL>http://172.16.18.15:8001/xml_minibrowser/examples/xml/Led.xml</URL>
+    </SoftKeyItem>    
+    <SoftKeyItem>
+        <Name>F2</Name>
+        <Label>Exit</Label>
+        <URL>snom://mb_exit</URL>
+    </SoftKeyItem>    
+</SnomIPPhoneText>

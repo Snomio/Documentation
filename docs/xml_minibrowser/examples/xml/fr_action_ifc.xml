@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneInput xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
+    <Url>snom://mb_nop#action_ifc:date_time=set,time=__Y__</Url>
+    <InputItem>
+        <DisplayName>Time:$(time)</DisplayName>
+        <InputToken>__Y__</InputToken>
+        <InputMask>99:99</InputMask>
+        <InputFlags>a</InputFlags>
+        <DefaultValue>00:00</DefaultValue>
+    </InputItem>
+</SnomIPPhoneInput>

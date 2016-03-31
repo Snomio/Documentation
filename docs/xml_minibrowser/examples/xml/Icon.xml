@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneMenu>
+<Title>Icon tag branding icon only</Title>
+<MenuItem name="snom820_icon_buddy_dnd.png">
+    <Icon>file:///bmp/colored/snom820_icon_buddy_dnd.png</Icon>
+    </MenuItem>
+<MenuItem name="snom820_icon_buddy_offline.png">
+    <Icon>file:///bmp/colored/snom820_icon_buddy_offline.png</Icon>
+    </MenuItem>
+<MenuItem name="snom820_icon_buddy_online.png">
+    <Icon>file:///bmp/colored/snom820_icon_buddy_online.png</Icon>
+    </MenuItem>
+<MenuItem name="snom820_icon_contact_state_available.png">
+    <Icon>file:///bmp/colored/snom820_icon_contact_state_available.png</Icon>
+    </MenuItem>
+<MenuItem name="snom820_icon_contact_state_away.png">
+    <Icon>file:///bmp/colored/snom820_icon_contact_state_away.png</Icon>
+    </MenuItem>
+<MenuItem name="snom820_icon_contact_state_busy.png"><br/>
+    <Icon>file:///bmp/colored/snom820_icon_contact_state_busy.png</Icon>
+    </MenuItem>
+</SnomIPPhoneMenu>

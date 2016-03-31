@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
+    <MenuItem name="nd 500715124">
+        <Url>snom://mb_nop#numberdial=500715124</Url>
+    </MenuItem>
+    <MenuItem name="nd <500715124@registrar>">
+        <Url>snom://mb_nop#numberdial=$(create_url:500715124)</Url>
+    </MenuItem>
+</SnomIPPhoneMenu>
