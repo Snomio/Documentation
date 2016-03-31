@@ -23,4 +23,4 @@ serve: dcleanup build
 	docker run -d -v $(PWD):/opt/data --name mkdocs_io -p 8001:8001 --net=host $(DOCKER_IMAGE) serve -a $(LISTEN_ADDR):8001
 
 gh-pages: dcleanup
-	docker run -it -v $(PWD):/opt/data --name mkdocs_io -p 8001:8001 --net=host $(DOCKER_IMAGE) gh-deploy --clean
+	docker run --rm -it -v $(PWD):/opt/data -v $(HOME)/.gitconfig:/root/.gitconfig -v $(HOME)/.ssh:/root/.ssh --name mkdocs_io -p 8001:8001 --net=host $(DOCKER_IMAGE) gh-deploy --clean
