@@ -95,6 +95,10 @@ pages:
             - 'SnomIPPhoneBatch': xml_minibrowser/examples/SnomIPPhoneBatch.md
             - 'Main sub elements': xml_minibrowser/examples/main_subelements.md
             - 'Main elements attributes': xml_minibrowser/examples/main_elements_attributes.md
+    - Awesome Snom io:
+        - 'The Awesome list': awesome/list.md
+        - 'How-to contribute': awesome/howto-contribute.md
+        - 'About': awesome/about.md
 
 extra_css: [extra.css]
 markdown_extensions:
