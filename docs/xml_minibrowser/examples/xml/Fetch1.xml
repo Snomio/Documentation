@@ -2,5 +2,5 @@
 <SnomIPPhoneText>
     <Title>1st page</Title>
     <Text>This text shown only for 4 second</Text>
-    <fetch mil="4000">http://snomio.github.io/Documentation/xml_minibrowser/examples/xml/Fetch2.xml</fetch>
+    <fetch mil="4000">http://docs.snom.io/xml_minibrowser/examples/xml/Fetch2.xml</fetch>
 </SnomIPPhoneText>

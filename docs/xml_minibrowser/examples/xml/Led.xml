@@ -10,7 +10,7 @@
     <SoftKeyItem>
         <Name>F1</Name>
         <Label>Off</Label>
-        <URL>http://snomio.github.io/Documentation/xml_minibrowser/examples/xml/Led-off.xml</URL>
+        <URL>http://docs.snom.io/xml_minibrowser/examples/xml/Led-off.xml</URL>
     </SoftKeyItem>
     <SoftKeyItem>
         <Name>F2</Name>
