@@ -8,44 +8,37 @@ Inspired by [@sindresorhus](https://github.com/sindresorhus)' and improved by th
 * [What is the awesome snom.io list?](about.md)
 * [Contribution guide](howto-contribute.md)
 
-# Personal Applications:
+# Networking and endpoint management
 
-### Snom Phone Book
+> All the awesome tools about Snom endpoints management, deployment and network-related
 
-* **URL:** [https://github.com/bevuta/snom-phonebook](https://github.com/bevuta/snom-phonebook)
-* **Description:** Backend for snom phones to query various data sources by using the minibrowser-feature
-* **Author:** Bevuta
-* **License:** BSD-2-Clause
+- [Snom PnP daemon](https://github.com/pbertera/snompnpd) - Daemon handling Plug&Play provisioning requests sent by snom phones
+- [Voice Quality collector](https://github.com/pbertera/vq-collector) - Daemon logging Voice Quality reports sent via SIP [PUBLISH](http://tools.ietf.org/html/rfc6035#section-3.2)
+- [SIPPing](https://github.com/pbertera/SIPPing) - Simple SIP packet forging tool.
 
-### Snom Minibrowser emulator
+# Business and Productivity Applications
 
-* **URL:** [https://github.com/pbertera/snom-xml-browser](https://github.com/pbertera/snom-xml-browser)
-* **Description:** Very simple and HTTP minibrowser emulator
-* **Author:** Bertera Pietro
-* **License:** GNU GPL
+> All the awesome tools managing contacts and productivity applications (CRM, Stock management, etc..) 
 
-# Video Source Applications:
+- [Snom Phone Book](https://github.com/bevuta/snom-phonebook) - Backend for snom phones to query various data sources by using the minibrowser-feature
 
-### Snom Robot and Video Call control
+# Video Source Applications
 
-* **URL:** [https://github.com/hagbard-c/snom-robotic-arm-remote-control](https://github.com/hagbard-c/snom-robotic-arm-remote-control)
-* **Description:** control an owi robotic arm edge via your snom phone
-* **Author:** hagbard-c
-***License:** GNU GPLv3 
+> All the awesome tools about video and security integration
 
-# IoT Devices Sensors and Control Applications:
+- [Snom Robot and Video Call control[(https://github.com/hagbard-c/snom-robotic-arm-remote-control)
+
+# PBX specific Applications
+
+> All awesome the applications PBX-related
 
 * [contribute now](howto-contribute.md)
 
-# Business and Productivity Applications:
+# IoT Devices Sensors and Control Applications
 
 * [contribute now](howto-contribute.md)
 
-# Vertical and Industry Specific Applications:
-
-* [contribute now](howto-contribute.md)
-
-# PBX specific Applications:
+# Vertical and Industry Specific Applications
 
 * [contribute now](howto-contribute.md)
 
