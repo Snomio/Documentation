@@ -5,7 +5,7 @@ MKDOCS_PORT=8001
 # Local root URL
 #TPL_ROOT_URL=http://172.16.18.15:$(8001)
 # Production Root URL
-TPL_ROOT_URL=http://snomio.github.io/Documentation
+TPL_ROOT_URL=http://docs.snom.io
 LISTEN_ADDR=0.0.0.0
 SSH_KEY=.ssh/id_dsa
 
