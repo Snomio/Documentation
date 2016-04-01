@@ -1,9 +1,7 @@
-    <li class="level{{ deep }}">
-        <a>{{ current_page.title }}</a>
-            {% for toc_item in toc %} 
-                <li class="active-page level{{ deep + 1 }} {% if toc_item.active %}active active-page{% endif %}"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
-                    {% for toc_item in toc_item.children %}
-                        <li class="active-page level{{ deep + 2 }}"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
-                    {% endfor %}
+    <li><a>{{ current_page.title }}</a></li>
+        {% for toc_item in toc %}
+            <li class="level{{ deep + 1 }} {% if toc_item.active %}active{% endif %}"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
+            {% for toc_item in toc_item.children %}
+                <li class="level{{ deep + 2 }}"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
             {% endfor %}
-    </li>
+        {% endfor %}
