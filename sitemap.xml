@@ -49,4 +49,26 @@
         
     
 
+    
+        
+    <url>
+     <loc>None/awesome/list/</loc>
+     <lastmod>2016-04-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/awesome/howto-contribute/</loc>
+     <lastmod>2016-04-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/awesome/about/</loc>
+     <lastmod>2016-04-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
 </urlset>
