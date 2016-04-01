@@ -3,7 +3,7 @@
 DOCKER_IMAGE=mkdocs
 MKDOCS_PORT=8001
 # Local root URL
-#TPL_ROOT_URL=http://172.16.18.15:$(8001)
+#TPL_ROOT_URL=http://172.16.18.15:$(MKDOCS_PORT)
 # Production Root URL
 TPL_ROOT_URL=http://docs.snom.io
 LISTEN_ADDR=0.0.0.0
