@@ -22,12 +22,7 @@ Please ensure your pull request adheres to the following guidelines:
 - Use the following format:
 
 ```    
-    ### Application Name
-    
-    * **URL:** [http://application.website.com](http://application.website.com)
-    * **Description:** Application short description
-    * **Author:** Author name
-    * **License:** Distribution license
+- [Application name](http://application.url/path) - Application description
 ```
 
 - Additions should be added to the bottom of the relevant category.
