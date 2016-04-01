@@ -43,7 +43,7 @@
 
         {% include "nav.html" %}
         {% include "breadcrumb.html" %}
-        
+
         <div class="container">
             {% if not meta.notoc %}
                 <div class="col-md-3">
@@ -55,7 +55,12 @@
                     </div>
                 </div>
             {% endif %}
-            <div class="col-md-9" role="main">{% include "content.html" %}</div>
+
+            {% if not meta.notoc %}
+                <div class="col-md-9" role="main">{% include "content.html" %}</div>
+            {% else %}
+                <div class="col-md-12" role="main">{% include "content.html" %}</div>
+            {% endif %}
         </div>
 
     <footer class="col-md-12">
