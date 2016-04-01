@@ -50,11 +50,7 @@
                     <div class="bs-sidebar hidden-print affix well" role="complementary">
                         {% set deep = 0 %}    
                         <ul class="nav bs-sidenav">
-                        {% for nav_item_side in nav %}
-                            {% if nav_item_side.title.startswith("hidden") == False %}
-                                {% include "toc.html" %}
-                            {% endif %}
-                        {% endfor %}
+                            {% include "toc.html" %}
                         </ul>
                     </div>
                 </div>
