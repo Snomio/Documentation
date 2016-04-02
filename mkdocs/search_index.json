@@ -1412,22 +1412,22 @@
         }, 
         {
             "location": "/awesome/list/", 
-            "text": "A curated list of Snom io projects\n\n\n\n\n\n\nWhat is the awesome snom.io list?\n\n\nContribution guide\n\n\n\n\nNetworking and endpoint management\n #\n\n\n\n\nAll the awesome tools about Snom endpoints management, deployment and network-related\n\n\n\n\n\n\nSnom PnP daemon\n - Daemon handling Plug\nPlay provisioning requests sent by snom phones\n\n\nVoice Quality collector\n - Daemon logging Voice Quality reports sent via SIP \nPUBLISH\n\n\nSIPPing\n - Simple SIP packet forging tool.\n\n\n\n\nBusiness and Productivity Applications\n #\n\n\n\n\nAll the awesome tools managing contacts and productivity applications (CRM, Stock management, etc..) \n\n\n\n\n\n\nSnom Phone Book\n - Backend for snom phones to query various data sources by using the minibrowser-feature\n\n\n\n\nVideo Source Applications\n #\n\n\n\n\nAll the awesome tools about video and security integration\n\n\n\n\n\n\nSnom Robot and Video Call control\n - control an owi robotic arm edge via your snom phone\n\n\n\n\nPBX specific Applications\n #\n\n\n\n\nAll awesome the applications PBX-related\n\n\n\n\n\n\ncontribute now\n\n\n\n\nIoT Devices Sensors and Control Applications\n #\n\n\n\n\nSnom Smart Home\n - Smart Home Menu for snom phones\n\n\n\n\nVertical and Industry Specific Applications\n #\n\n\n\n\ncontribute now\n\n\n\n\nAcknowledgments\n #\n\n\nThis list is inspired by \n@sindresorhus\n' and improved by these \namazing contributors\n.\n\n\nLicense\n #\n\n\n\n\nTo the extent possible under law, \nSnom Technology AG\n has waived all copyright and related or neighboring rights to this work.", 
+            "text": "A curated list of Snom io projects\n\n\n\n\n\n\nWhat is the awesome snom.io list?\n\n\nContribution guide\n\n\n\n\nNetworking and endpoint management\n #\n\n\n\n\nAll the awesome tools about Snom endpoints management, deployment and network-related\n\n\n\n\n\n\nSnom PnP daemon\n - Daemon handling Plug\nPlay provisioning requests sent by snom phones.\n\n\nVoice Quality collector\n - Daemon logging Voice Quality reports sent via SIP \nPUBLISH\n.\n\n\nSIPPing\n - Simple SIP packet forging tool.\n\n\nSnom-remote-control\n - A small HTML/JS page showcasing phone remote control features.\n\n\nSnom RDS php client\n - Snom Redirection service XML-RPC PHP client\n\n\n\n\nBusiness and Productivity Applications\n #\n\n\n\n\nAll the awesome tools managing contacts and productivity applications (CRM, Stock management, etc..) \n\n\n\n\n\n\nSnom Phone Book\n - Backend for snom phones to query various data sources by using the minibrowser-feature.\n\n\n\n\nVideo Source Applications\n #\n\n\n\n\nAll the awesome tools about video and security integration\n\n\n\n\n\n\nSnom Robot and Video Call control\n - control an owi robotic arm edge via your snom phone.\n\n\n\n\nPBX specific Applications\n #\n\n\n\n\nAll awesome the applications PBX-related\n\n\n\n\n\n\ncontribute now\n\n\n\n\nIoT Devices Sensors and Control Applications\n #\n\n\n\n\nSnom Smart Home\n - Smart Home Menu for snom phones.\n\n\n\n\nVertical and Industry Specific Applications\n #\n\n\n\n\ncontribute now\n\n\n\n\nAcknowledgments\n #\n\n\nThis list is inspired by \n@sindresorhus\n' and improved by these \namazing contributors\n.\n\n\nLicense\n #\n\n\n\n\nTo the extent possible under law, \nSnom Technology AG\n has waived all copyright and related or neighboring rights to this work.", 
             "title": "The Awesome list"
         }, 
         {
             "location": "/awesome/list/#networking_and_endpoint_management", 
-            "text": "All the awesome tools about Snom endpoints management, deployment and network-related    Snom PnP daemon  - Daemon handling Plug Play provisioning requests sent by snom phones  Voice Quality collector  - Daemon logging Voice Quality reports sent via SIP  PUBLISH  SIPPing  - Simple SIP packet forging tool.", 
+            "text": "All the awesome tools about Snom endpoints management, deployment and network-related    Snom PnP daemon  - Daemon handling Plug Play provisioning requests sent by snom phones.  Voice Quality collector  - Daemon logging Voice Quality reports sent via SIP  PUBLISH .  SIPPing  - Simple SIP packet forging tool.  Snom-remote-control  - A small HTML/JS page showcasing phone remote control features.  Snom RDS php client  - Snom Redirection service XML-RPC PHP client", 
             "title": "Networking and endpoint management"
         }, 
         {
             "location": "/awesome/list/#business_and_productivity_applications", 
-            "text": "All the awesome tools managing contacts and productivity applications (CRM, Stock management, etc..)     Snom Phone Book  - Backend for snom phones to query various data sources by using the minibrowser-feature", 
+            "text": "All the awesome tools managing contacts and productivity applications (CRM, Stock management, etc..)     Snom Phone Book  - Backend for snom phones to query various data sources by using the minibrowser-feature.", 
             "title": "Business and Productivity Applications"
         }, 
         {
             "location": "/awesome/list/#video_source_applications", 
-            "text": "All the awesome tools about video and security integration    Snom Robot and Video Call control  - control an owi robotic arm edge via your snom phone", 
+            "text": "All the awesome tools about video and security integration    Snom Robot and Video Call control  - control an owi robotic arm edge via your snom phone.", 
             "title": "Video Source Applications"
         }, 
         {
@@ -1437,7 +1437,7 @@
         }, 
         {
             "location": "/awesome/list/#iot_devices_sensors_and_control_applications", 
-            "text": "Snom Smart Home  - Smart Home Menu for snom phones", 
+            "text": "Snom Smart Home  - Smart Home Menu for snom phones.", 
             "title": "IoT Devices Sensors and Control Applications"
         }, 
         {
