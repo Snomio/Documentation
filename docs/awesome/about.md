@@ -7,11 +7,11 @@ The goal of this repo is to index articles, learning materials and projects, not
 
 > Snom io is a collection of Snom features useful to integrate Snom devices with external services, applications and platforms.
 
-Snom io comprends XML minibrowser, networking, CTI and comminucation features
+Snom io includes XML Minibrowser, networking, CTI and communication features
 
 ## The list
 
-The list is [open to contributions](howto-contribute.md)
+The list is [open to contributions](howto-contribute.md), if you developed an application that you want to share just follow the contribution guidelines in order to submit the request.
 
 !!! WARNING
     All the software and tools listed here are provided *as-is* without any warranty and support by Snom Technology

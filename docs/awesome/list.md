@@ -25,7 +25,7 @@
 
 > All the awesome tools about video and security integration
 
-- [Snom Robot and Video Call control[(https://github.com/hagbard-c/snom-robotic-arm-remote-control)
+- [Snom Robot and Video Call control](https://github.com/hagbard-c/snom-robotic-arm-remote-control)
 
 ### PBX specific Applications
 
@@ -41,7 +41,7 @@
 
 * [contribute now](howto-contribute.md)
 
-#### Acknowlegments
+#### Acknowledgments
 
 This list is inspired by [@sindresorhus](https://github.com/sindresorhus)' and improved by these **[amazing contributors](https://github.com/snomio/Documentation/graphs/contributors)**.
 

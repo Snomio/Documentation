@@ -17,7 +17,7 @@ Available XML objects are following :
 |[**SnomIPPhoneInput**](main_tags/SnomIPPhoneInput.md)| Request for an input from the user |
 |[**SnomIPPhoneBatch**](main_tags/SnomIPPhoneBatch.md) | Combine several main tags in one XML data |
 
-To understand how Snom minibrowser works, the knowledge on following theme are required :
+To understand how Snom Minibrowser works, the knowledge on following theme are required :
 
 - Snom telephone
 - Basic XML element (tag and attributes) and XML structure
@@ -54,9 +54,8 @@ Some special instruction and hints (This may change by different firmware versio
 
 * Minibrowser XML parser is not case sensitive, so you can write the opening tag and closing tag with the different character case. In proper XML editor, it will check the character case. 
 * Name convention of  minibrowser tags and attributes are following : 
-** All tag written in camel case and start with upper-case with exception of <nowiki>'<br>'</nowiki> tag. 
-** All Attribute is written and start in lower-case character and underscore is used to replace white space.  
-* If not stated the example was done on Snom820 with firmware 8.7.5 latest. 
-* The link provided in example may be invalid, broken and unavailable. 
+* All tag written in camel case and start with upper-case with exception of *<br>* tag.
+* All Attribute is written and start in lower-case character and underscore is used to replace white space.
+* The link provided in example may be invalid, broken and unavailable.
 * Some example was provided with light content, to make it short and understandable in first glance.
-* Due to XSD limitation there is some behaviour that may not described here.  
+* Due to XSD limitation there is some behaviour that may not described here.

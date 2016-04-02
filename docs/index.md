@@ -19,7 +19,7 @@ This website has the aim to provide a reference to the developers, but you can a
 
 This website and all the code runs on [Github](https://www.github.com): the largest developers community
 
-You can also find a list of awesome ready-to-use integrations, if you have an application to sumbit please submit us a request.
+You can also find a list of awesome ready-to-use integrations, if you have an application to summit please submit us a request.
 
 ### Showcase
 

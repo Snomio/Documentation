@@ -2,7 +2,7 @@
 
 The Snom io Awesome [list](list.md) is maintained using a [Markdown](https://en.wikipedia.org/wiki/Markdown) formatted text file.
 The list managed in git repository hosted on [Github](https://github.com/Snomio/Documentation/tree/master/docs/awesome/list.md).
-Contrigutions should be submitted in the "standard git" way: trough a [pull request](https://help.github.com/articles/using-pull-requests/).
+Contributions should be submitted in the "standard git" way: trough a [pull request](https://help.github.com/articles/using-pull-requests/).
 
 ## Step-by-step procedure
 
