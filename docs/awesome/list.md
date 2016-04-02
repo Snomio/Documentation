@@ -35,7 +35,7 @@
 
 ### IoT Devices Sensors and Control Applications
 
-* [contribute now](howto-contribute.md)
+- [Snom Smart Home](https://github.com/anthal/snom_smarthome)
 
 ### Vertical and Industry Specific Applications
 
