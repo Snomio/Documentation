@@ -25,7 +25,7 @@
 
 > All the awesome tools about video and security integration
 
-- [Snom Robot and Video Call control](https://github.com/hagbard-c/snom-robotic-arm-remote-control)
+- [Snom Robot and Video Call control](https://github.com/hagbard-c/snom-robotic-arm-remote-control) - control an owi robotic arm edge via your snom phone
 
 ### PBX specific Applications
 
@@ -35,7 +35,7 @@
 
 ### IoT Devices Sensors and Control Applications
 
-- [Snom Smart Home](https://github.com/anthal/snom_smarthome)
+- [Snom Smart Home](https://github.com/anthal/snom_smarthome) - Smart Home Menu for snom phones
 
 ### Vertical and Industry Specific Applications
 
