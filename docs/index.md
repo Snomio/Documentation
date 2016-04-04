@@ -19,7 +19,7 @@ The aim of this website is to provide a reference for developers, but you can al
 ### Developers community
 
 This website and all the code are published on [Github](https://github.com/snomio), the largest developers community.
-You can also find a list of awesome ready-to-use [integrations and tools](awesome/list/index.md), if you have an application to summit please [submit](awesome/howto-contribute/index.md) us a request, we will be happy to to add your work to the list.
+You can also find a list of awesome ready-to-use [integrations and tools](awesome/list.md), if you have an application to summit please [submit](awesome/howto-contribute.md) us a request, we will be happy to to add your work to the list.
 
 ### Showcase
 
