@@ -1207,8 +1207,18 @@
         }, 
         {
             "location": "/xml_minibrowser/examples/", 
-            "text": "This documentation section provides a complete set of examples.\n\n\nYou can test all the examples by your own: every example is accessible via public URL.\n\n\nWen you see the following demo box:\n\n\n\n\nDemo\n\n\nTry on your phone\n\n\n\n\nYou just need to copy the URL into the phone configuration and test the application\n\n\nNow you are ready to proceed with the first example: just clik on the \nNext\n link", 
+            "text": "Using the examples\n #\n\n\nThis documentation section provides a complete set of examples.\n\n\nYou can test all the examples by your own: every example is accessible via public URL.\n\n\nWen you see the following demo box:\n\n\n\n\nDemo\n\n\nTry on your phone\n\n\n\n\nYou just need to copy the URL into the phone configuration and test the application\n\n\nNow you are ready to proceed with the first example: just clik on the \nNext\n link\n\n\nFull applications examples\n #\n\n\nWe created some example applications showing some XML minibrowser features and syntax.\n\n\n\n\n\n\n\n\nApplication\n\n\nDescription\n\n\nURL\n\n\n\n\n\n\n\n\n\n\nNumverify\n\n\nNumber validation and lookup trough \nNumverify\n APIs\n\n\nhttps://github.com/Snomio/Snom-XML-Minibrowser-examples/tree/master/numverify\n\n\n\n\n\n\nSlideshow\n\n\nSimple picture slideshow on a Snom Phone\n\n\nhttps://github.com/Snomio/Snom-XML-Minibrowser-examples/tree/master/slideshow\n\n\n\n\n\n\nSoftkey\n\n\nSoftkey usage example trough a PHP script\n\n\nhttps://github.com/Snomio/Snom-XML-Minibrowser-examples/tree/master/softkeys\n\n\n\n\n\n\nOpenWeatherMap\n\n\nWeather contitions and forecast on you Snom phone trough \nOpenWeatherMap.org\n APIs\n\n\nhttps://github.com/Snomio/Snom-XML-Minibrowser-examples/tree/master/OpenWeatherMap\n\n\n\n\n\n\n\n\n\n\nInfo\n\n\nThe listed applications are provided as example, you are free to use, reuse and modify.", 
             "title": "Introduction"
+        }, 
+        {
+            "location": "/xml_minibrowser/examples/#using_the_examples", 
+            "text": "This documentation section provides a complete set of examples.  You can test all the examples by your own: every example is accessible via public URL.  Wen you see the following demo box:   Demo  Try on your phone   You just need to copy the URL into the phone configuration and test the application  Now you are ready to proceed with the first example: just clik on the  Next  link", 
+            "title": "Using the examples"
+        }, 
+        {
+            "location": "/xml_minibrowser/examples/#full_applications_examples", 
+            "text": "We created some example applications showing some XML minibrowser features and syntax.     Application  Description  URL      Numverify  Number validation and lookup trough  Numverify  APIs  https://github.com/Snomio/Snom-XML-Minibrowser-examples/tree/master/numverify    Slideshow  Simple picture slideshow on a Snom Phone  https://github.com/Snomio/Snom-XML-Minibrowser-examples/tree/master/slideshow    Softkey  Softkey usage example trough a PHP script  https://github.com/Snomio/Snom-XML-Minibrowser-examples/tree/master/softkeys    OpenWeatherMap  Weather contitions and forecast on you Snom phone trough  OpenWeatherMap.org  APIs  https://github.com/Snomio/Snom-XML-Minibrowser-examples/tree/master/OpenWeatherMap      Info  The listed applications are provided as example, you are free to use, reuse and modify.", 
+            "title": "Full applications examples"
         }, 
         {
             "location": "/xml_minibrowser/examples/SnomIPPhoneText/", 
