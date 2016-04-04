@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
 
-	<title>How-to contribute - Snom io Knowledge base</title>
+	<title>Debug - Snom io Knowledge base</title>
 
         <link href="../../css/bootstrap-3.0.3.min.css" rel="stylesheet">
         <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -336,59 +336,59 @@
             
             
             
-                <li class="dropdown">
+                <li class="dropdown active">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">XML Definitions <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                     
                         
                             
 <li >
-    <a href="../../xml_definitions/">XML Definitions</a>
+    <a href="../">XML Definitions</a>
 </li>
 
                         
                         <!-- ORIG
                         <li >
-                            <a href="../../xml_definitions/">XML Definitions</a>
+                            <a href="../">XML Definitions</a>
                         </li>
                         -->
                     
                         
                             
 <li >
-    <a href="../../xml_definitions/functions/">Functions</a>
+    <a href="../functions/">Functions</a>
 </li>
 
                         
                         <!-- ORIG
                         <li >
-                            <a href="../../xml_definitions/functions/">Functions</a>
+                            <a href="../functions/">Functions</a>
                         </li>
                         -->
                     
                         
                             
 <li >
-    <a href="../../xml_definitions/replacement_plan/">Replacement plan</a>
+    <a href="../replacement_plan/">Replacement plan</a>
 </li>
 
                         
                         <!-- ORIG
                         <li >
-                            <a href="../../xml_definitions/replacement_plan/">Replacement plan</a>
+                            <a href="../replacement_plan/">Replacement plan</a>
                         </li>
                         -->
                     
                         
                             
-<li >
-    <a href="../../xml_definitions/debug/">Debug</a>
+<li class="active">
+    <a href="./">Debug</a>
 </li>
 
                         
                         <!-- ORIG
-                        <li >
-                            <a href="../../xml_definitions/debug/">Debug</a>
+                        <li class="active">
+                            <a href="./">Debug</a>
                         </li>
                         -->
                     
@@ -397,46 +397,46 @@
             
             
             
-                <li class="dropdown active">
+                <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Awesome Snom io <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                     
                         
                             
 <li >
-    <a href="../list/">The Awesome list</a>
+    <a href="../../awesome/list/">The Awesome list</a>
 </li>
 
                         
                         <!-- ORIG
                         <li >
-                            <a href="../list/">The Awesome list</a>
-                        </li>
-                        -->
-                    
-                        
-                            
-<li class="active">
-    <a href="./">How-to contribute</a>
-</li>
-
-                        
-                        <!-- ORIG
-                        <li class="active">
-                            <a href="./">How-to contribute</a>
+                            <a href="../../awesome/list/">The Awesome list</a>
                         </li>
                         -->
                     
                         
                             
 <li >
-    <a href="../about/">About</a>
+    <a href="../../awesome/howto-contribute/">How-to contribute</a>
 </li>
 
                         
                         <!-- ORIG
                         <li >
-                            <a href="../about/">About</a>
+                            <a href="../../awesome/howto-contribute/">How-to contribute</a>
+                        </li>
+                        -->
+                    
+                        
+                            
+<li >
+    <a href="../../awesome/about/">About</a>
+</li>
+
+                        
+                        <!-- ORIG
+                        <li >
+                            <a href="../../awesome/about/">About</a>
                         </li>
                         -->
                     
@@ -449,12 +449,12 @@
             <!-- Search, Navigation and Repo links -->
             <ul class="nav navbar-nav navbar-right">
                 <li >
-                    <a rel="next" href="../list/">
+                    <a rel="next" href="../replacement_plan/">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
                 <li >
-                    <a rel="prev" href="../about/">
+                    <a rel="prev" href="../../awesome/list/">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -478,12 +478,12 @@
                     
                         
                             
-                                <li>Awesome Snom io &raquo;</li>
+                                <li>XML Definitions &raquo;</li>
                             
                         
                     
 
-                    <li>How-to contribute</li>
+                    <li>Debug</li>
                 
             </ol>
         </div>
@@ -495,11 +495,13 @@
                             
                         <ul class="nav bs-sidenav">
                                     
-            <li class="level1 active"><a href="#howto_contribute">Howto contribute</a></li>
+            <li class="level1 active"><a href="#debugging">Debugging</a></li>
             
-                <li class="level2"><a href="#step-by-step_procedure">Step-by-step procedure</a></li>
+                <li class="level2"><a href="#syntax_check_xml_definition_code">Syntax check XML Definition Code</a></li>
             
-                <li class="level2"><a href="#contribution_guidelines">Contribution Guidelines</a></li>
+                <li class="level2"><a href="#execution_check">Execution check</a></li>
+            
+                <li class="level2"><a href="#variable_check">Variable check</a></li>
             
         
                         </ul>
@@ -510,42 +512,63 @@
             
                 <div class="col-md-9" role="main">
 
-<h1 id="howto_contribute">Howto contribute<a class="headerlink" href="#howto_contribute" title="Permanent link"> #</a></h1>
-<p>The Snom io Awesome <a href="../list/">list</a> is maintained using a <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a> formatted text file.
-The list managed in git repository hosted on <a href="https://github.com/Snomio/Documentation/tree/master/docs/awesome/list.md">Github</a>.
-Contributions should be submitted in the "standard git" way: trough a <a href="https://help.github.com/articles/using-pull-requests/">pull request</a>.</p>
-<h2 id="step-by-step_procedure">Step-by-step procedure<a class="headerlink" href="#step-by-step_procedure" title="Permanent link"> #</a></h2>
-<ol>
-<li>You'll need a <a href="https://github.com/join">GitHub account</a></li>
-<li>Access to the Snom io Awesome <a href="https://github.com/Snomio/Documentation/tree/master/docs/awesome/list.md">list</a></li>
-<li>Click on the edit Icon</li>
-<li>Now you can start editing the text in the in-browser editor. Make sure you follow guidelines above. The syntax must be coherent with the Markdown <a href="../daringfireball.net/projects/markdown/">syntax</a></li>
-<li>When you finished editing the file you can submit the change proposal</li>
-</ol>
-<h2 id="contribution_guidelines">Contribution Guidelines<a class="headerlink" href="#contribution_guidelines" title="Permanent link"> #</a></h2>
-<p>Please ensure your pull request adheres to the following guidelines:</p>
-<ul>
-<li>Search previous suggestions before making a new one, as yours may be a duplicate.</li>
-<li>Suggested packages should be tested and documented.</li>
-<li>Make an individual pull request for each suggestion.</li>
-<li>Use the following format:</li>
-</ul>
-<pre class="code"><code>- [Application name](http://application.url/path) - Application description</code></pre>
+<h1 id="debugging">Debugging<a class="headerlink" href="#debugging" title="Permanent link"> #</a></h1>
+<p>Very often it is required to debug the XML Definition Code to check why is something not working or to understand how something works for better development of the Code. There are a few ways to debug XML Definition Code.</p>
+<h2 id="syntax_check_xml_definition_code">Syntax check XML Definition Code<a class="headerlink" href="#syntax_check_xml_definition_code" title="Permanent link"> #</a></h2>
+<p>The best way to check if your XML Definition Code has Syntax issues is by downloading the phone settings after the Code has been inserted onto the phone. </p>
+<p>The parts of our XML Definition Code where a Syntax error exists will not be saved on the phone.</p>
+<p>I would suggest using the Plain text Settings, because it is easier to read the XML Definition code without the regular XML Settings. </p>
+<h2 id="execution_check">Execution check<a class="headerlink" href="#execution_check" title="Permanent link"> #</a></h2>
+<p>To see if a part of you Code has been executed (mostly the action elements), you will find them in the Phone Regular Logs from Level 7+.  Below an example of a Setting Toggle XML Definition Code:</p>
+<pre class="code"><code>Apr  2 18:30:58  [DEBUG2] PHN: gui_object::OnKey(P1, 1), State Idle (29)
+Apr  2 18:30:58  [DEBUG0] PHN: ReplaceQueryVariables in &gt;http://localhost:80/settings.htm?settings=save&amp;privacy_out=off&lt;
+Apr  2 18:30:58  [DEBUG0] PHN: ReplaceQueryVariables replaced: &gt;http://localhost:80/settings.htm?settings=save&amp;privacy_out=off&lt;
+Apr  2 18:30:58  [NOTICE] PHN: Sending post request http://localhost:80/settings.htm?settings=save&amp;privacy_out=off
+Apr  2 18:30:58  [NOTICE] PHN: Fetching URL: http://:...@localhost:80/settings.htm?...
+Apr  2 18:30:58  [DEBUG2] WEBCLIENT: Send TCP none
+Apr  2 18:30:58  [DEBUG2] WEBCLIENT: Socket 386 dns_resolving
+Apr  2 18:30:58  [DEBUG2] PHN: TMR: setting up  'gui_state.cpp (792): [static void gui_object::DisplayStateCbAtNextLoop(void*, void*)]' 0x40879274 to fire periodically every 250 ms 
+Apr  2 18:30:58  [DEBUG1] DNS: Add Cache: localhost.snom.com= (ttl=60, type=7)
+Apr  2 18:30:58  [DEBUG0] DNS: AddrInfo for 'localhost.snom.com' invalid, error: Name or service not known (-2)
+Apr  2 18:30:58  [WARN  ] PHN: Could not resolve host &gt;localhost&lt;
+Apr  2 18:30:58  [DEBUG2] WEBCLIENT: Socket 386 dns_resolve_cache_lookup_has_failed
+Apr  2 18:30:58  [WARN  ] WEBCLIENT: Could not resolve host localhost
+Apr  2 18:30:58  [DEBUG2] WEBCLIENT: Socket 386 disconnected
+Apr  2 18:30:58  [DEBUG2] WEBCLIENT: Socket 386 deleted
+Apr  2 18:30:58  [NOTICE] PHN: Server rejected Action URL request with 400 &gt;&lt;</code></pre>
 
 
+<p>You may see here that "localhost" could not be resolved by our DNS server and that is why my Toggle is not working.</p>
+<h2 id="variable_check">Variable check<a class="headerlink" href="#variable_check" title="Permanent link"> #</a></h2>
+<p>It might be useful to know which value or what variables have been used/set in the code. To do that we are going to open the following URL in our Browsers: http://PHONE_IP/xml_entities.htm</p>
+<p>There we will find all the xml_entities split into categories of button and setting types:</p>
 <ul>
-<li>Additions should be added to the bottom of the relevant category.</li>
-<li>New categories, or improvements to the existing categorization are welcome.</li>
-<li>Direct links to the application code repository are welcome.</li>
-<li>Keep descriptions short and simple, but descriptive.</li>
-<li>Start the description with a capital and end with a full stop/period.</li>
-<li>Make sure your text editor is set to remove trailing whitespace.</li>
+<li><strong>LineKey</strong> are the Free programmable Function keys</li>
+<li><strong>ContextKey</strong> are the 4 keys below the Display</li>
+<li><strong>NaviKey</strong> the navigation keys</li>
+<li><strong>HardKey</strong> are the hardcoded keys like <em>dnd, directory, menu, transfer, etc</em></li>
+<li><strong>SpringboardKey</strong> are available only on snom 870 phones and are the Virtual Keys in idle</li>
+<li><strong>GeneralPurposeXml</strong> are the <strong>general_purpose_xml_descriptions</strong> settings on the phone</li>
+<li><strong>XmlsForEventListUri</strong> are the <strong>user_event_list_uri</strong> settings on the phone
+By selecting a category you will get a list of index for that button or setting, each of them can contain a XML Definition Code.</li>
 </ul>
-<p>Thank you for your suggestions!</p>
-<h3 id="updating_your_pr">Updating your PR<a class="headerlink" href="#updating_your_pr" title="Permanent link"> #</a></h3>
-<p>A lot of times, making a PR adhere to the standards above can be difficult.
-If the maintainers notice anything that we'd like changed, we'll ask you to edit your PR before we merge it.
-If you're not sure how to do that, <a href="https://github.com/RichardLitt/docs/blob/master/amending-a-commit-guide.md">here is a guide</a> on the different ways you can update your PR so that we can merge it.</p></div>
+<p>Here is an example of our XML Definition Code from <strong>Extension Monitoring</strong> example the 4th part:</p>
+<pre class="code"><code>#type:  BusyLampField
+#state:     free
+#variables:
+  call_id = 313339363334363736333230373839-axkw6vc64k0g
+  identity = 1
+  local_tag = 9th5orwan7
+  remote_name = 2902
+  remote_tag = lhbva8lq73
+  remote_uri = sip:547@10.110.100.110:3072;line=wxecg2hg
+  state_save = free
+  subscr_uri = sip:548@pbx.local
+  transfer_id = -15
+#arrays:</code></pre>
+
+
+<p>Here we see all the values of our XML Definition Variables we defined in the code.</p></div>
             
         </div>
 
