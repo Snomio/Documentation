@@ -4,22 +4,22 @@ notoc: "True"
 
 Snom.io means “Innovation – Output”
 
-Snom phones are smart business endpoints capable of many integration features.
+> Snom phones are smart business endpoints capable of many integration features.
+>
+> This website documents all these features in order to help developers to create applications.
 
-This website documents all those features in order to help developers to create.
-
-Contents are structured per category:
+**Contents are structured in categories:**
 
 * [XML Minibrowser](xml_minibrowser/index.md)
+* [XML Definitions](xml_definitions/index.md)
 * CTI (coming soon)
 
-This website has the aim to provide a reference to the developers, but you can also find a number of [examples](xml_minibrowser/examples/index.md) and code snippets.
+The aim of this website is to provide a reference for developers, but you can also find a number of [examples](xml_minibrowser/examples/index.md) and ready to use code snippets.
 
 ### Developers community
 
-This website and all the code runs on [Github](https://www.github.com): the largest developers community
-
-You can also find a list of awesome ready-to-use integrations, if you have an application to summit please submit us a request.
+This website and all the code are published on [Github](https://github.com/snomio), the largest developers community.
+You can also find a list of awesome ready-to-use [integrations and tools](awesome/list/index.md), if you have an application to summit please [submit](awesome/howto-contribute/index.md) us a request, we will be happy to to add your work to the list.
 
 ### Showcase
 
