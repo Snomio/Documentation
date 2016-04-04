@@ -11,21 +11,23 @@
 
 > All the awesome tools about Snom endpoints management, deployment and network-related
 
-- [Snom PnP daemon](https://github.com/pbertera/snompnpd) - Daemon handling Plug&Play provisioning requests sent by snom phones
-- [Voice Quality collector](https://github.com/pbertera/vq-collector) - Daemon logging Voice Quality reports sent via SIP [PUBLISH](http://tools.ietf.org/html/rfc6035#section-3.2)
+- [Snom PnP daemon](https://github.com/pbertera/snompnpd) - Daemon handling Plug&Play provisioning requests sent by snom phones.
+- [Voice Quality collector](https://github.com/pbertera/vq-collector) - Daemon logging Voice Quality reports sent via SIP [PUBLISH](http://tools.ietf.org/html/rfc6035#section-3.2).
 - [SIPPing](https://github.com/pbertera/SIPPing) - Simple SIP packet forging tool.
-
+- [Snom-remote-control](https://github.com/Snomio/Snom-remote-control) - A small HTML/JS page showcasing phone remote control features.
+- [Snom RDS php client](https://github.com/Snomio/Snom-RDS-php-client) - Snom Redirection service XML-RPC PHP client
+ 
 ### Business and Productivity Applications
 
 > All the awesome tools managing contacts and productivity applications (CRM, Stock management, etc..) 
 
-- [Snom Phone Book](https://github.com/bevuta/snom-phonebook) - Backend for snom phones to query various data sources by using the minibrowser-feature
+- [Snom Phone Book](https://github.com/bevuta/snom-phonebook) - Backend for snom phones to query various data sources by using the minibrowser-feature.
 
 ### Video Source Applications
 
 > All the awesome tools about video and security integration
 
-- [Snom Robot and Video Call control[(https://github.com/hagbard-c/snom-robotic-arm-remote-control)
+- [Snom Robot and Video Call control](https://github.com/hagbard-c/snom-robotic-arm-remote-control) - control an owi robotic arm edge via your snom phone.
 
 ### PBX specific Applications
 
@@ -35,13 +37,13 @@
 
 ### IoT Devices Sensors and Control Applications
 
-* [contribute now](howto-contribute.md)
+- [Snom Smart Home](https://github.com/anthal/snom_smarthome) - Smart Home Menu for snom phones.
 
 ### Vertical and Industry Specific Applications
 
 * [contribute now](howto-contribute.md)
 
-#### Acknowlegments
+#### Acknowledgments
 
 This list is inspired by [@sindresorhus](https://github.com/sindresorhus)' and improved by these **[amazing contributors](https://github.com/snomio/Documentation/graphs/contributors)**.
 
