@@ -56,9 +56,11 @@ Following attributes are supported in all the snom Minibrowser main tags
 
 ### state
 
-**Description:** If set to *relevant*, key events will not only be processed by the minibrowser but also be forwarded to the underlying phone state 
-If set to *only_mb*, key events will only be processed by the minibrowser (Default value).
-If set to *others_except_mb*, unrecognized key events will not processed by minibrowser.
+**Description:**
+
+- If set to *relevant*, key events will not only be processed by the minibrowser but also be forwarded to the underlying phone state 
+- If set to *only_mb*, key events will only be processed by the minibrowser (Default value).
+- If set to *others_except_mb*, unrecognized key events will not processed by minibrowser.
 
 **Valid values:** *relevant*, *only_mb*, *others_except_mb*.
 
