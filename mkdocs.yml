@@ -2,6 +2,7 @@ site_name: Snom io Knowledge base
 theme_dir: 'mkdocs-bootstrap-snom'
 copyright: 'Copyright © 2016 Snom Technology AG. All rights reserved.'
 repo_url: https://github.com/Snomio/Documentation
+google_analytics: ['UA-1331074-26', 'auto']
 
 pages:
     - Home: index.md
