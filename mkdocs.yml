@@ -103,7 +103,7 @@ pages:
         - 'Debug': xml_definitions/debug.md
     - Awesome Snom io:
         - 'The Awesome list': awesome/list.md
-        - 'How-to contribute': awesome/howto-contribute.md
+        - 'How to contribute': awesome/howto-contribute.md
         - 'About': awesome/about.md
 
 extra_css: [extra.css]
