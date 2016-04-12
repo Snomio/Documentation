@@ -19,7 +19,7 @@ Following attributes are supported in all the snom Minibrowser main tags
 **Valid values:** *true*, *false*, *yes*, *no*, *on*, *off*. 
 
 !!! Info
-        You can see a **sort** usage example [here](examples/#sort)
+        You can see a **sort** usage example [here](../examples/main_elements_attributes/#sort)
 
 ### selectable
 
@@ -28,7 +28,7 @@ Following attributes are supported in all the snom Minibrowser main tags
 **Valid values:** *true*, *false*, *yes*, *no*, *on*, *off*.
 
 !!! Info
-        You can see a **selectable** usage example [here](examples/#selectable)
+        You can see a **selectable** usage example [here](../examples/main_elements_attributes/#selectable)
 
 ### predict
 
@@ -65,7 +65,7 @@ Following attributes are supported in all the snom Minibrowser main tags
 **Valid values:** *relevant*, *only_mb*, *others_except_mb*.
 
 !!! Info
-        You can see a **state** usage example [here](examples/#state)
+        You can see a **state** usage example [here](../examples/main_elements_attributes/#state)
 
 ### show_line_info_layer 
 
