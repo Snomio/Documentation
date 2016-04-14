@@ -3,13 +3,13 @@
     xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
     <SnomIPPhoneMenu id="menu1">
         <MenuItem name="state relevant">
-            <URL>${TPL_ROOT_URL}/xml_minibrowser/examples/state.xml.tpl#sub=*[@id="relevant"])</URL>
+            <URL>${TPL_ROOT_URL}/xml_minibrowser/examples/xml/state.xml.tpl#sub=*[@id="relevant"])</URL>
         </MenuItem>
         <MenuItem name="state only_mb">
-            <URL>${TPL_ROOT_URL}/xml_minibrowser/examples/state.xml.tpl#sub=*[@id="only_mb"])</URL>
+            <URL>${TPL_ROOT_URL}/xml_minibrowser/examples/xml/state.xml.tpl#sub=*[@id="only_mb"])</URL>
         </MenuItem>
         <MenuItem name="state others_except_mb">
-            <URL>${TPL_ROOT_URL}/xml_minibrowser/examples/state.xml.tpl#sub=*[@id="others_except_mb"])</URL>
+            <URL>${TPL_ROOT_URL}/xml_minibrowser/examples/xml/state.xml.tpl#sub=*[@id="others_except_mb"])</URL>
         </MenuItem>
     </SnomIPPhoneMenu>
     <SnomIPPhoneText id="relevant" state="relevant">
