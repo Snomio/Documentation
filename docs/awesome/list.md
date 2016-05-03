@@ -1,8 +1,9 @@
+## A curated list of Snom io projects
+
 <center>
 ![snom logo](/img/snom_logo.jpg)
 </center>
 
-> A curated list of Snom io projects
 
 * [What is the awesome snom.io list?](about.md)
 * [Contribution guide](howto-contribute.md)
