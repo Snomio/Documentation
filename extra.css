@@ -4,10 +4,37 @@
 }
 
 /* SUBMENY SUPPORT */
+.navbar-default
+.navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    background: #191e28;
+}
 
+.navbar-default
+.navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    background: #191e28;
+}
+
+.navbar-nav.navbar-right:last-child {
+    margin-right: 10px;
+}
+
+.dropdown-menu {
+    top: 90px;
+    background-color: #333;
+}
+
+.dropdown-menu>li>a {
+    color: #A3A1A1;
+}
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus
+.dropdown-menu>li>a:hover {
+    background-color: #333;
+}
 .dropdown-submenu {
     position:relative;
 }
+
 .dropdown-submenu>.dropdown-menu {
     top:0;
     left:100%;
@@ -17,9 +44,11 @@
     -moz-border-radius:0 6px 6px 6px;
     border-radius:0 6px 6px 6px;
 }
+
 .dropdown-submenu:hover>.dropdown-menu {
     display:block;
 }
+
 .dropdown-submenu>a:after {
     display:block;
     content:" ";
@@ -33,12 +62,15 @@
     margin-top:5px;
     margin-right:-10px;
 }
+
 .dropdown-submenu:hover>a:after {
     border-left-color:#ffffff;
 }
+
 .dropdown-submenu.pull-left {
     float:none;
 }
+
 .dropdown-submenu.pull-left>.dropdown-menu {
     left:-100%;
     margin-left:10px;
@@ -55,16 +87,97 @@
     left: 0;
     z-index: 1020;
     display: block;
-    top: 50px;
-    font-size: 10px;
-    height: 14px;
-    padding-top: 1px;
+    top: 90px;
+    font-size: 14px;
+    height: 21px;
+    padding-top: 0px;
     padding-bottom: 1px;
-    padding-left: 10%;
+    padding-left: 100px;
+    color: #bca474;
+    border:1px solid #e3e3e3;
+    border-radius: 4px;
 }
+
 .navbar-header .navbar-brand {
     color: #fff;
     font-size: 20px;
+}
+
+/* top navbar height */
+.navbar-container {
+    height: 90px;
+}
+
+.navbar {
+    background: #191e28
+
+}
+
+.navbar-nav>li>a {
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+
+.navbar-right>li>a {
+    font-size: 12px;
+}
+
+.container {
+    /* margin-top: 30px */
+}
+
+pre code {
+}
+
+
+pre {
+    background-color: #f2f2f2;
+    border: 1px solid #e8ebf1;
+    border-radius: 1px;
+}
+
+a {
+    color: #bca474;
+}
+
+a:hover {
+    color: #9A855A;
+}
+
+th {
+    background: #e8ebf1;
+    color: #666;
+}
+
+.table td{
+    border-left: 1px solid #e8ebf1;
+    border-right: 1px solid #e8ebf1;
+    border-bottom: 1px solid #e8ebf1;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 25px;
+    line-height: 28px;
+    font-weight: 100;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 100;
+}
+
+body {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
 }
 
 /* permalink smaller */
@@ -77,18 +190,22 @@
     padding-left: 10px;
     font-size: 116%
 }
+
 .level2 {
     padding-left: 15px;
     font-size: 112%
 }
+
 .level3 {
     padding-left: 20px;
     font-size: 108%
 }
+
 .level4 {
     padding-left: 25px;
     font-size: 104%
 }
+
 .level5 {
     padding-left: 30px;
     font-size: 100%
@@ -146,7 +263,7 @@
 /* ADMONITION INFO */
 
 .admonition.info {
-    background: #dbfaf4;
+    background: #D4EFB3;
     padding: 12px;
     line-height: 24px;
     margin-bottom: 24px;
@@ -155,7 +272,7 @@
 }
 
 .admonition.info p.admonition-title {
-    background: #1abc9c;
+    background: #78be20;
     font-weight: bold;
     display: block;
     color: #fff;
@@ -196,7 +313,7 @@
 }
 
 .admonition.warning p.admonition-title {
-    background: #f0b37e;
+    background: #bca474;
     font-weight: bold;
     display: block;
     color: #fff;
