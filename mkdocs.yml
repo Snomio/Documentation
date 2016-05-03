@@ -3,6 +3,9 @@ theme_dir: 'mkdocs-bootstrap-snom'
 copyright: 'Copyright © 2016 Snom Technology AG. All rights reserved.'
 repo_url: https://github.com/Snomio/Documentation
 google_analytics: ['UA-1331074-26', 'auto']
+site_favicon: 'img/favicon.png'
+extra:
+    site_image: '/img/knowledgebase.png'
 
 pages:
     - Home: index.md

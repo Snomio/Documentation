@@ -6,7 +6,7 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
     content: "";
     display: block;
     margin-top: -75px;
-    height: 75px;
+    height: 120px;
 }
 
 ul.nav li.main {
@@ -96,7 +96,7 @@ div.source-links {
     }
     .bs-sidebar.affix {
         position: fixed; /* Undo the static from mobile first approach */
-        top: 80px;
+        top: 115px;
     }
     .bs-sidebar.affix-bottom {
         position: absolute; /* Undo the static from mobile first approach */
