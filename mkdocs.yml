@@ -11,6 +11,7 @@ pages:
     - Home: index.md
     - XML Minibrowser:
         - 'Introduction': xml_minibrowser/index.md
+        - 'Triggering an application': xml_minibrowser/triggering.md
         - 'Main tags': 
             - 'SnomIPPhoneMenu': xml_minibrowser/main_tags/SnomIPPhoneMenu.md
             - 'SnomIPPhoneDirectory': xml_minibrowser/main_tags/SnomIPPhoneDirectory.md

@@ -4,8 +4,12 @@ notoc: "False"
 
 ## Introduction
 
-The XML Minibrowser is a feature of the standard SIP software delivered with Snom phones. It allows processing Snom XML objects which is stored on standard web servers (http(s)). The feature can be used for various applications.
-Available XML objects are following :
+The XML Minibrowser is a feature of the standard SIP software delivered with Snom phones.
+It allows processing Snom XML objects which is stored on standard web servers (http(s)).
+
+The feature can be used for various applications, like creating custom user interfaces.
+
+**Available XML objects are following:**
 
 |    Main Tag Name   |    Description    |
 |------------------|-----------------|
