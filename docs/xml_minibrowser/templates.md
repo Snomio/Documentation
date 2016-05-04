@@ -1,3 +1,5 @@
+# Builtin templates
+
 !!! Info
     Snom phones also offer some builtin templates which can be accessed through an internal URL.
 
