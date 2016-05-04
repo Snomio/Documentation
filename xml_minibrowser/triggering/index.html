@@ -10,7 +10,7 @@
         <link rel="shortcut icon" href="../../img/favicon.png">
         
 
-	<title>Introduction - Snom io Knowledge base</title>
+	<title>Triggering an application - Snom io Knowledge base</title>
 
         <link href="../../css/bootstrap-3.0.3.min.css" rel="stylesheet">
         <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -88,14 +88,14 @@
                     
                         
                             
-<li >
-    <a href="../triggering/">Triggering an application</a>
+<li class="active">
+    <a href="./">Triggering an application</a>
 </li>
 
                         
                         <!-- ORIG
-                        <li >
-                            <a href="../triggering/">Triggering an application</a>
+                        <li class="active">
+                            <a href="./">Triggering an application</a>
                         </li>
                         -->
                     
@@ -260,8 +260,8 @@
         
             
                 
-<li class="active">
-    <a href="./">Introduction</a>
+<li >
+    <a href="../examples/">Introduction</a>
 </li>
 
             
@@ -269,7 +269,7 @@
             
                 
 <li >
-    <a href="SnomIPPhoneText/">SnomIPPhoneText</a>
+    <a href="../examples/SnomIPPhoneText/">SnomIPPhoneText</a>
 </li>
 
             
@@ -277,7 +277,7 @@
             
                 
 <li >
-    <a href="SnomIPPhoneMenu/">SnomIPPhoneMenu</a>
+    <a href="../examples/SnomIPPhoneMenu/">SnomIPPhoneMenu</a>
 </li>
 
             
@@ -285,7 +285,7 @@
             
                 
 <li >
-    <a href="InputField/">InputField</a>
+    <a href="../examples/InputField/">InputField</a>
 </li>
 
             
@@ -293,7 +293,7 @@
             
                 
 <li >
-    <a href="SnomIPPhoneDirectory/">SnomIPPhoneDirectory</a>
+    <a href="../examples/SnomIPPhoneDirectory/">SnomIPPhoneDirectory</a>
 </li>
 
             
@@ -301,7 +301,7 @@
             
                 
 <li >
-    <a href="SnomIPPhoneInput/">SnomIPPhoneInput</a>
+    <a href="../examples/SnomIPPhoneInput/">SnomIPPhoneInput</a>
 </li>
 
             
@@ -309,7 +309,7 @@
             
                 
 <li >
-    <a href="SnomIPPhoneImage/">SnomIPPhoneImage</a>
+    <a href="../examples/SnomIPPhoneImage/">SnomIPPhoneImage</a>
 </li>
 
             
@@ -317,7 +317,7 @@
             
                 
 <li >
-    <a href="SnomIPPhoneImageFile/">SnomIPPhoneImageFile</a>
+    <a href="../examples/SnomIPPhoneImageFile/">SnomIPPhoneImageFile</a>
 </li>
 
             
@@ -325,7 +325,7 @@
             
                 
 <li >
-    <a href="SnomIPPhoneBatch/">SnomIPPhoneBatch</a>
+    <a href="../examples/SnomIPPhoneBatch/">SnomIPPhoneBatch</a>
 </li>
 
             
@@ -333,7 +333,7 @@
             
                 
 <li >
-    <a href="main_subelements/">Main sub elements</a>
+    <a href="../examples/main_subelements/">Main sub elements</a>
 </li>
 
             
@@ -341,7 +341,7 @@
             
                 
 <li >
-    <a href="main_elements_attributes/">Main elements attributes</a>
+    <a href="../examples/main_elements_attributes/">Main elements attributes</a>
 </li>
 
             
@@ -351,7 +351,7 @@
 
                         
                         <!-- ORIG
-                        <li class="active">
+                        <li >
                             <a href="">Examples</a>
                         </li>
                         -->
@@ -474,12 +474,12 @@
             <!-- Search, Navigation and Repo links -->
             <ul class="nav navbar-nav navbar-right">
                 <li >
-                    <a rel="next" href="../templates/">
+                    <a rel="next" href="../">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
                 <li >
-                    <a rel="prev" href="SnomIPPhoneText/">
+                    <a rel="prev" href="../main_tags/SnomIPPhoneMenu/">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -507,14 +507,8 @@
                             
                         
                     
-                        
-                            
-                                <li>Examples &raquo;</li>
-                            
-                        
-                    
 
-                    <li>Introduction</li>
+                    <li>Triggering an application</li>
                 
             </ol>
         </div>
@@ -526,10 +520,13 @@
                             
                         <ul class="nav bs-sidenav">
                                     
-            <li class="level1 active"><a href="#using_the_examples">Using the examples</a></li>
+            <li class="level1 active"><a href="#triggering_an_xml_minibrowser_application">Triggering an XML Minibrowser application</a></li>
             
-        
-            <li class="level1 "><a href="#full_applications_examples">Full applications examples</a></li>
+                <li class="level2"><a href="#via_key_pressure">Via Key pressure</a></li>
+            
+                <li class="level2"><a href="#via_action_urls_triggers">Via Action URLs triggers</a></li>
+            
+                <li class="level2"><a href="#via_sip_notify_request">Via SIP NOTIFY request</a></li>
             
         
                         </ul>
@@ -540,52 +537,219 @@
             
                 <div class="col-md-9" role="main">
 
-<h1 id="using_the_examples">Using the examples<a class="headerlink" href="#using_the_examples" title="Permanent link"> #</a></h1>
-<p>This documentation section provides a complete set of examples.</p>
-<p>You can test all the examples by your own: every example is accessible via public URL.</p>
-<p>Wen you see the following demo box:</p>
-<div class="admonition demo">
-<p class="admonition-title">Demo</p>
-<p><a href="#">Try on your phone</a></p>
+<h1 id="triggering_an_xml_minibrowser_application">Triggering an XML Minibrowser application<a class="headerlink" href="#triggering_an_xml_minibrowser_application" title="Permanent link"> #</a></h1>
+<p>An XML application can be triggered in various way:</p>
+<h2 id="via_key_pressure">Via Key pressure<a class="headerlink" href="#via_key_pressure" title="Permanent link"> #</a></h2>
+<p>The simplest way of showing a minibrowser page on the phone is to assign the page to a programmable function key using the <strong>Action URL</strong> key type.</p>
+<p>Follow these steps to assign the page to a function key:</p>
+<ol>
+<li>Open the web user interface of the phone in your browser (point the browser to <em>http://<ip_address_of_the_phone>/</em>)</li>
+<li>Navigate to <strong>Function keys</strong></li>
+<li>
+<p>For the key you want to change:</p>
+<ol>
+<li>Select <strong>Type</strong> = <strong>Action URL</strong></li>
+<li>Insert the application URL into the <strong>Number</strong> textbox</li>
+<li>Provide a descriptive title in the <strong>Short Text</strong> field</li>
+</ol>
+<p><img alt="The function key configuration" src="../../img/mb_fkey.png" /></p>
+</li>
+</ol>
+<p>Pressing the selected key now launches the minibrowser.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>In case your application ins't triggered check the phone logs</p>
 </div>
-<p>You just need to copy the URL into the phone configuration and test the application</p>
-<p><strong>Now you are ready to proceed with the first example: just clik on the <em>Next</em> link</strong></p>
-<h1 id="full_applications_examples">Full applications examples<a class="headerlink" href="#full_applications_examples" title="Permanent link"> #</a></h1>
-<p>We created some example applications showing some XML minibrowser features and syntax.</p>
+<h2 id="via_action_urls_triggers">Via Action URLs triggers<a class="headerlink" href="#via_action_urls_triggers" title="Permanent link"> #</a></h2>
+<p>Using the <strong>Action URL</strong> feature the phone can trigger an HTTP request when a specific event occours on the phone:</p>
+<p><img alt="The Action URL page" src="../../img/action_urls.png" /></p>
+<p>You can just provide the minibrowser URL to be launched for each specific event and click "Apply". In this case the page is launched whenever the event occurs. E.g. if you provide <strong>http://someurl/somepage.xml</strong> in the <strong>DND on</strong> field each time you enable the DND feature on the phone this URL will be called.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Action URLs do not necessarily need to show up on the phone. If you point to a URL which does not return an XML body in its 200 Ok response then the phone will not display anything.</p>
+</div>
+<h3 id="adding_information_to_an_action_url">Adding information to an Action URL<a class="headerlink" href="#adding_information_to_an_action_url" title="Permanent link"> #</a></h3>
+<p>Sometimes you want to provide additional information in the URL (e.g. the Caller ID for an incoming call, the MAC address of the phone or the value of a specific setting).</p>
+<h4 id="runtime_variables">Runtime variables<a class="headerlink" href="#runtime_variables" title="Permanent link"> #</a></h4>
+<p>Runtime variables are filled in at the time when the event was triggered. The following table describes the available variables:</p>
 <table>
 <thead>
 <tr>
-<th>Application</th>
+<th>Variable name</th>
 <th>Description</th>
-<th>URL</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Numverify</td>
-<td>Number validation and lookup trough <a href="https://numverify.com/">Numverify</a> APIs</td>
-<td><a href="https://github.com/Snomio/Snom-XML-Minibrowser-examples/tree/master/numverify">https://github.com/Snomio/Snom-XML-Minibrowser-examples/tree/master/numverify</a></td>
+<td><em>$local</em></td>
+<td>The local SIP URI of the call</td>
 </tr>
 <tr>
-<td>Slideshow</td>
-<td>Simple picture slideshow on a Snom Phone</td>
-<td><a href="https://github.com/Snomio/Snom-XML-Minibrowser-examples/tree/master/slideshow">https://github.com/Snomio/Snom-XML-Minibrowser-examples/tree/master/slideshow</a></td>
+<td><em>$remote</em></td>
+<td>The remote SIP URI of the call</td>
 </tr>
 <tr>
-<td>Softkey</td>
-<td>Softkey usage example trough a PHP script</td>
-<td><a href="https://github.com/Snomio/Snom-XML-Minibrowser-examples/tree/master/softkeys">https://github.com/Snomio/Snom-XML-Minibrowser-examples/tree/master/softkeys</a></td>
+<td><em>$active_url</em></td>
+<td>The SIP URI of the active outgoing identity</td>
 </tr>
 <tr>
-<td>OpenWeatherMap</td>
-<td>Weather contitions and forecast on you Snom phone trough <a href="http://openweathermap.org/api">OpenWeatherMap.org</a> APIs</td>
-<td><a href="https://github.com/Snomio/Snom-XML-Minibrowser-examples/tree/master/OpenWeatherMap">https://github.com/Snomio/Snom-XML-Minibrowser-examples/tree/master/OpenWeatherMap</a></td>
+<td><em>$active_user</em></td>
+<td>The user part of the SIP URI for the active outgoing identity</td>
+</tr>
+<tr>
+<td><em>$active_host</em></td>
+<td>The host part of the SIP URI for the active outgoing identity</td>
+</tr>
+<tr>
+<td>*$csta_id</td>
+<td>CSTA ID</td>
+</tr>
+<tr>
+<td><em>$call-id</em></td>
+<td>The call-id of the active call</td>
+</tr>
+<tr>
+<td><em>$display_local</em></td>
+<td>Used to display the name of callee</td>
+</tr>
+<tr>
+<td><em>$display_remote</em></td>
+<td>Used to display the name of caller</td>
+</tr>
+<tr>
+<td><em>$expansion_module</em></td>
+<td>Indicated the expansion module being used</td>
+</tr>
+<tr>
+<td><em>$active_key</em></td>
+<td>The Function Key (e.g. P1, P5, P32,..) associated with a call</td>
+</tr>
+<tr>
+<td><em>$phone_ip</em></td>
+<td>The current ip address of the phone</td>
+</tr>
+<tr>
+<td><em>$nr_ongoing_calls</em></td>
+<td>Contains the number of currently active calls</td>
+</tr>
+<tr>
+<td><em>$context_url</em></td>
+<td>Used in log_on/off-action to provide the sip-uri of the logged-on/off identity</td>
+</tr>
+<tr>
+<td><em>$cancel_reason</em></td>
+<td>When a call has been canceled/terminated via sip-cancel this will paste the content of the reason-header</td>
 </tr>
 </tbody>
 </table>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Not all of the above runtime variables are used for all events.</p>
+</div>
+<p>So if you would like to insert the local and remote uris in your URL it needs to look as follows:
+<em>http://my.server.com/minibrowser.xml?local=$local&amp;remote=$remote</em></p>
+<h4 id="inserting_setting_values">Inserting setting values<a class="headerlink" href="#inserting_setting_values" title="Permanent link"> #</a></h4>
+<p>In some cases you would like to access current setting values in the scripts generating your content (you can use the <a href="../examples/cb_set/">set</a> callback in your minibrowser XMLs to access setting values without passing them in the URL). In these cases you can just use the setting name prepended by a <em>$</em>-sign.</p>
+<p><strong>Example:</strong></p>
+<ul>
+<li><em>http://my.server.com/minibrowser.php?language=$language</em></li>
+<li><em>http://my.server.com/minibrowser.php?hostname=$user_host1</em> (for identity settings append the identity number - in this case 1)</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Please note that - due to security constraints passwords and password-like settings cannot be referenced like this.</p>
+</div>
+<h4 id="launch_the_minibrowser_using_a_http_get_request_to_the_phone">Launch the minibrowser using a HTTP GET request to the phone<a class="headerlink" href="#launch_the_minibrowser_using_a_http_get_request_to_the_phone" title="Permanent link"> #</a></h4>
+<p>Another commonly used way to trigger the minibrowser is to use HTTP GET requests to the phone page called <em>minibrowser.htm</em>.</p>
+<p><strong>Example:</strong></p>
+<p><em>http://10.110.15.51/minibrowser.htm?url=http://10.110.15.117/launch.xml</em></p>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
-<p>The listed applications are provided as example, you are free to use, reuse and modify.</p>
+<p>You have to make sure that the URL you provide in the url-parameter is properly encoded:</p>
+<p><em>http://phone_ip/minibrowser.htm?url=http://IPADDRESS/menu.xml?mac=MAC&amp;check=1234&amp;type=4</em></p>
+<p>Needs to be encoded like this:</p>
+<p><em>http://phone_ip/minibrowser.htm?url=http://IPADDRESS%2Fmenu.xml%3Fmac%3DMAC%26check%3D1234%26type%3D</em></p>
+<p><a href="https://en.wikipedia.org/wiki/Percent-encoding">here</a> you can find more informations about the "percent encoding". <a href="http://www.url-encode-decode.com/">This</a> website provides a free encoder / decoder.</p>
+</div>
+<h2 id="via_sip_notify_request">Via SIP NOTIFY request<a class="headerlink" href="#via_sip_notify_request" title="Permanent link"> #</a></h2>
+<p>An XML application can be also sent to the phone via a SIP request, this requires some setup on the phone.</p>
+<p>Please configure the following settings:</p>
+<table>
+<thead>
+<tr>
+<th>Setting Name</th>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>xml_notify</em></td>
+<td>on</td>
+<td>This setting is required to enable this feature</td>
+</tr>
+<tr>
+<td><em>filter_registrar</em></td>
+<td>off</td>
+<td>This setting should be <strong>off</strong> in case you are sending the request from an IP different that your PBX</td>
+</tr>
+<tr>
+<td><em>network_id_port</em></td>
+<td>5060</td>
+<td>This setting is needed if you don't know the ephemeral port used for SIP by the phone</td>
+</tr>
+<tr>
+<td><em>offer_gruu</em></td>
+<td>off</td>
+<td>This setting can stay <strong>on</strong> if you are sending the request from the PBX and the PBX supports GRUU</td>
+</tr>
+<tr>
+<td><em>user_sipusername_as_line</em></td>
+<td>off</td>
+<td>This setting can stay <strong>on</strong> if you are sending the request from the PBX and the PBX sends the request to the proper SIP URI</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example:</strong></p>
+<p>Assume we use the workstation at IP address 10.0.5.30 to send XML content to a snom375 phone at 10.0.5.174 which has identity 440 registered</p>
+<pre class="code"><code>NOTIFY sip:10.0.0.174:5060 SIP/2.0
+Via: SIP/2.0/UDP 10.0.5.30:1036
+From: &lt;sip:sipsak@10.0.5.30&gt;;tag=2502
+To: &lt;sip:440@10.0.0.174&gt;;tag=2502
+Call-ID: fakeCall-ID@me
+CSeq: 1 NOTIFY
+Max-Forwards: 70
+Event: xml
+Subscription-State: active;expires=30000
+Content-Type: application/snomxml
+Content-Length: 317
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;SnomIPPhoneDirectory&gt;
+&lt;Title&gt;Menutitle&lt;/Title&gt;
+&lt;Prompt&gt;Prompt&lt;/Prompt&gt;
+&lt;DirectoryEntry&gt;
+&lt;Name&gt;John&lt;/Name&gt;
+&lt;Telephone&gt;123456789&lt;/Telephone&gt;
+&lt;/DirectoryEntry&gt;
+&lt;DirectoryEntry&gt;
+&lt;Name&gt;Doe&lt;/Name&gt;
+&lt;Telephone&gt;987654321&lt;/Telephone&gt;
+&lt;/DirectoryEntry&gt;
+&lt;/SnomIPPhoneDirectory&gt;</code></pre>
+
+
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The <em>Content-Length</em> header must have the correct value and the headers:</p>
+<ul>
+<li><strong>Event: xml</strong></li>
+<li><strong>Content-Type: application/snomxml</strong></li>
+</ul>
+<p>are mandatory for this feature</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>In order to send the SIP request you can use <a href="https://sourceforge.net/projects/sipsak.berlios/">sipsack</a> or <a href="https://github.com/pbertera/SIPPing">SIPPing</a>.</p>
 </div></div>
             
         </div>
