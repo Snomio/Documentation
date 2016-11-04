@@ -24,10 +24,10 @@ prebuild:
 	done
 
 build: dcleanup prebuild
-	docker run -it -v $(PWD):/opt/data --name mkdocs_io --rm -p $(MKDOCS_PORT):$(MKDOCS_PORT) --net=host $(DOCKER_IMAGE) build --clean
+	docker run -it -v $(PWD):/opt/data --name mkdocs_io --rm -p $(MKDOCS_PORT):$(MKDOCS_PORT) $(DOCKER_IMAGE) build --clean
 
 serve: dcleanup build
-	docker run -d -v $(PWD):/opt/data --name mkdocs_io -p $(MKDOCS_PORT):$(MKDOCS_PORT) --net=host $(DOCKER_IMAGE) serve -a $(LISTEN_ADDR):$(MKDOCS_PORT)
+	docker run -it -v $(PWD):/opt/data --name mkdocs_io -p $(MKDOCS_PORT):$(MKDOCS_PORT) $(DOCKER_IMAGE) serve -a $(LISTEN_ADDR):$(MKDOCS_PORT)
 
 gh-pages: prebuild dcleanup
 	docker run --rm -it -v $(PWD):/opt/data -v $(HOME)/.gitconfig:/root/.gitconfig -v $(HOME)/$(SSH_KEY):/root/$(SSH_KEY) --name mkdocs_io --net=host $(DOCKER_IMAGE) gh-deploy --clean
