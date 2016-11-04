@@ -41,3 +41,4 @@ The minibrowser can be controlled with URI fragment commands that are appended t
 | [unregister](../examples/fr_unregister.md) | Unregister a phone identity |
 | [var_ifc](../examples/fr_var_ifc.md) | Set a module variable |
 | [mjpg](../examples/fr_mjpg.md) | Start a Motion Jpeg video |
+| [calllistclear](../examples/fr_calllistclear.md) | Clear the call lists |

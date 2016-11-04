@@ -87,6 +87,7 @@ pages:
                 - 'unregister': xml_minibrowser/examples/fr_unregister.md
                 - 'var_ifc': xml_minibrowser/examples/fr_var_ifc.md
                 - 'mjpg': xml_minibrowser/examples/fr_mjpg.md
+                - 'callistclear': xml_minibrowser/examples/fr_calllistclear.md
         - 'Builtin Templates': xml_minibrowser/templates.md
         - 'Examples':
             - 'Introduction': xml_minibrowser/examples/index.md
