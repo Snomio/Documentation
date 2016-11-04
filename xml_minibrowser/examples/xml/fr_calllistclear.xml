@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnomIPPhoneMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../minibrowser_test.xsd">
+  <MenuItem name="Clear Dialed calls">                                                                                   
+    <Url>snom://mb_nop#calllistclear=Dialed</Url>        
+  </MenuItem> 
+  <MenuItem name="Clear Received calls">                                                                                   
+    <Url>snom://mb_nop#calllistclear=Received</Url>        
+  </MenuItem>    
+  <MenuItem name="Clear Missed calls">                                                                                   
+    <Url>snom://mb_nop#calllistclear=Missed</Url>        
+  </MenuItem>
+  <MenuItem name="Clear All calls">
+    <Url>snom://mb_nop#calllistclear=MaxCallLists</Url>
+  </MenuItem>
+</SnomIPPhoneMenu>
