@@ -19,6 +19,6 @@ requests==2.2.1
 singledispatch==3.4.0.3
 six==1.5.2
 tornado==4.3
-urllib3==1.7.1
+urllib3==1.26.5
 wheel==0.24.0
 wsgiref==0.1.2
