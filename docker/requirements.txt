@@ -15,7 +15,7 @@ markdown-include==0.5.1
 mkdocs==0.15.3
 mkdocs-bootstrap==0.1.1
 mkdocs-bootswatch==0.4.0
-requests==2.2.1
+requests==2.20.0
 singledispatch==3.4.0.3
 six==1.5.2
 tornado==4.3
